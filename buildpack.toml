@@ -35,6 +35,15 @@ api = "0.2"
     uri = "https://github.com/paketo-community/bundle-install/releases/download/v0.0.1/bundle-install-v0.0.1.tgz"
     version = "0.0.1"
 
+  [[metadata.dependencies]]
+    id = "paketo-community/puma"
+    sha256 = "6ea09c2d36af9c31f78fc3beaf471389f1f8035d84c47d165d181fe773df42e4"
+    source = "https://github.com/paketo-community/puma/archive/v0.0.3.tar.gz"
+    source_sha256 = "35026027b227e4a75dc5c9022f78d1925ca16a86e4b4d24b85db971cd19bdef1"
+    stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
+    uri = "https://github.com/paketo-community/puma/releases/download/v0.0.3/puma-0.0.3.tgz"
+    version = "0.0.3"
+
 [[order]]
 
   [[order.group]]
