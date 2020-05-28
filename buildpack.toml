@@ -3,7 +3,6 @@ api = "0.2"
 [buildpack]
   id = "paketo-community/ruby"
   name = "Ruby Buildpack"
-  version = "{{.Version}}"
 
 [metadata]
   include_files = ["buildpack.toml"]
