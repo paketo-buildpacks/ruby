@@ -18,12 +18,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/bundler"
-    sha256 = "fc5a4c6790a6b162c272edc8ae67de3a42ccca242936d2d47191659a50a030f0"
-    source = "https://github.com/paketo-community/bundler/archive/v0.0.102.tar.gz"
-    source_sha256 = "e15ad2a9fe9fee90cb02797cf2da7e10ec0c9e0a5b2926822c9ad008a4eb5276"
+    sha256 = "5009db8434005fd30bf6633c6437b714324cdafeccc50fa531319772c6cdc809"
+    source = "https://github.com/paketo-community/bundler/archive/v0.0.105.tar.gz"
+    source_sha256 = "05edb84edcda91ab78b252321b77e8d5436ae25539a080ad38da142bd7068c36"
     stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/bundler/releases/download/v0.0.102/bundler-0.0.102.tgz"
-    version = "0.0.102"
+    uri = "https://github.com/paketo-community/bundler/releases/download/v0.0.105/bundler-0.0.105.tgz"
+    version = "0.0.105"
 
   [[metadata.dependencies]]
     id = "paketo-community/bundle-install"
@@ -51,7 +51,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/bundler"
-    version = "0.0.102"
+    version = "0.0.105"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
