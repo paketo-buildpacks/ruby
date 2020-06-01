@@ -36,9 +36,9 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/puma"
-    sha256 = "6ea09c2d36af9c31f78fc3beaf471389f1f8035d84c47d165d181fe773df42e4"
+    sha256 = "fc710b8d839a01bda1038b789dc453c5e622bf583d6f81f8ee4bdd04d4658198"
     source = "https://github.com/paketo-community/puma/archive/v0.0.3.tar.gz"
-    source_sha256 = "35026027b227e4a75dc5c9022f78d1925ca16a86e4b4d24b85db971cd19bdef1"
+    source_sha256 = "510b2a546c6ae3a10fb9b6cfacee0f1508b18a1ce9c6e8160c3747f23cc02115"
     stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
     uri = "https://github.com/paketo-community/puma/releases/download/v0.0.3/puma-0.0.3.tgz"
     version = "0.0.3"
