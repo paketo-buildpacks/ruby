@@ -14,9 +14,6 @@ jobs:
       uses: paketo-buildpacks/github-config/actions/buildpackage/download@gcr-push
     - name: Push
       run: |
-        docker login gcr.io \
-          --username _json_key \
-          --password "${{ secrets.GCR_PUSH_BOT_JSON_KEY }}"
-
+        echo "${{ secrets.GCR_PUSH_BOT_JSON_KEY }}" | docker login gcr.io --username _json_key --password-stdin
         docker import image "${GITHUB_WORKSPACE}/${{ steps.download.outputs.buildpackage }}" "gcr.io/${{ github.repository }}:${{ steps.download.outputs.tag }}"
         docker push "gcr.io/${{ github.repository }}:${{ steps.download.outputs.tag }}"
