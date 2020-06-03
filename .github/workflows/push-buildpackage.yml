@@ -17,5 +17,6 @@ jobs:
         GCR_PUSH_BOT_JSON_KEY: ${{ secrets.GCR_PUSH_BOT_JSON_KEY }}
       run: |
         echo "${GCR_PUSH_BOT_JSON_KEY}" | docker login --username _json_key --password-stdin gcr.io
-        skopeo copy "oci-archive:${GITHUB_WORKSPACE}/${{ steps.download.outputs.buildpackage }}" "docker://gcr.io/${{ github.repository }}:${{ steps.download.outputs.tag }}"
-        skopeo copy "oci-archive:${GITHUB_WORKSPACE}/${{ steps.download.outputs.buildpackage }}" "docker://gcr.io/${{ github.repository }}:latest"
+        mkdir -p "${HOME}/tmp"
+        skopeo --tmpdir "${HOME}/tmp" copy "oci-archive:${GITHUB_WORKSPACE}/${{ steps.download.outputs.buildpackage }}" "docker://gcr.io/${{ github.repository }}:${{ steps.download.outputs.tag }}"
+        skopeo --tmpdir "${HOME}/tmp" copy "oci-archive:${GITHUB_WORKSPACE}/${{ steps.download.outputs.buildpackage }}" "docker://gcr.io/${{ github.repository }}:latest"
