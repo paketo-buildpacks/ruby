@@ -43,6 +43,15 @@ api = "0.2"
     uri = "https://github.com/paketo-community/puma/releases/download/v0.0.3/puma-0.0.3.tgz"
     version = "0.0.3"
 
+  [[metadata.dependencies]]
+    id = "paketo-community/rackup"
+    sha256 = "67cf30e96259c746d49b3d8375bff6290112678a5322d2c3d3ff9bbf4c4b55f4"
+    source = "https://github.com/paketo-community/rackup/archive/v0.0.1.tar.gz"
+    source_sha256 = "7ca1aa398ac0c377acf04f33105f404b37cfaee55c472fa89ee44e90e88bf863"
+    stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
+    uri = "https://github.com/paketo-community/rackup/releases/download/v0.0.1/rackup-0.0.1.tgz"
+    version = "0.0.1"
+
 [[order]]
 
   [[order.group]]
