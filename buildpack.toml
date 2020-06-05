@@ -9,12 +9,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/mri"
-    sha256 = "0dbaf9ee3ba9897f5b9ebedbe54a0bb6f8b8aa14320d131070ae10ba460a1810"
-    source = "https://github.com/paketo-community/mri/archive/v0.0.121.tar.gz"
-    source_sha256 = "331359db395f73cd4d3302601c1bf1ee9f0c24d8e3edee949e5258e5dbcd5c25"
+    sha256 = "fa6837e1c39eee12013604d8a477925fbbbb6269d7ebd2b549bf9a4924fee567"
+    source = "https://github.com/paketo-community/mri/archive/v0.0.122.tar.gz"
+    source_sha256 = "5625df7e65d29001e7d8f6e1ad74d72280a2a6c740be13f2e89c1079cc7d7a29"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/mri/releases/download/v0.0.121/mri-0.0.121.tgz"
-    version = "0.0.121"
+    uri = "https://github.com/paketo-community/mri/releases/download/v0.0.122/mri-0.0.122.tgz"
+    version = "0.0.122"
 
   [[metadata.dependencies]]
     id = "paketo-community/bundler"
@@ -47,7 +47,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/mri"
-    version = "0.0.121"
+    version = "0.0.122"
 
   [[order.group]]
     id = "paketo-community/bundler"
