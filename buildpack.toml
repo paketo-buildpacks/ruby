@@ -27,12 +27,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/bundle-install"
-    sha256 = "c7245eba62bdddea378aa799a279df37f165752b7666c9aedd10e35b352d1ff1"
-    source = "https://github.com/paketo-community/bundle-install/archive/v0.0.11.tar.gz"
-    source_sha256 = "6b25edb2529ed713d4836462d37b22575cd536997f2aa063787b4d51c4e0b440"
+    sha256 = "caa666a27ebd96920576554eaf7a308a0e6d6d8da8b3fae2f0c252882fd1b837"
+    source = "https://github.com/paketo-community/bundle-install/archive/v0.0.12.tar.gz"
+    source_sha256 = "878e3c3d20fc0258ab1b6295a991ecbd77d1dad9a73d8bccff4c41a47a0fdf67"
     stacks = ["org.cloudfoundry.stacks.cflinuxfs3", "io.buildpacks.stacks.bionic"]
-    uri = "https://github.com/paketo-community/bundle-install/releases/download/v0.0.11/bundle-install-0.0.11.tgz"
-    version = "0.0.11"
+    uri = "https://github.com/paketo-community/bundle-install/releases/download/v0.0.12/bundle-install-0.0.12.tgz"
+    version = "0.0.12"
 
   [[metadata.dependencies]]
     id = "paketo-community/puma"
@@ -55,7 +55,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
-    version = "0.0.11"
+    version = "0.0.12"
 
   [[order.group]]
     id = "paketo-community/puma"
