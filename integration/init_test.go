@@ -35,6 +35,9 @@ func TestIntegration(t *testing.T) {
 
 	suite := spec.New("Integration", spec.Parallel(), spec.Report(report.Terminal{}))
 	suite("Puma", testPuma)
+	suite("Rackup", testRackup)
+	suite("Thin", testThin)
+	suite("Unicorn", testUnicorn)
 	suite.Run(t)
 }
 
