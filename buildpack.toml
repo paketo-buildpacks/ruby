@@ -45,12 +45,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/thin"
-    sha256 = "8f410cb5274ca6d8f0bcf73711e08b0df7da10d0c4b34c5981316402fe0704c3"
-    source = "https://github.com/paketo-community/thin/archive/v0.0.3.tar.gz"
-    source_sha256 = "01a8460378c7b83d2b0ddfb65ed4cee3a14786009f5fe73015d636bf7a09dc6e"
+    sha256 = "d475bc4d6c3d934575520940812e8c6eeae952a7718695ef564470d226edf70d"
+    source = "https://github.com/paketo-community/thin/archive/v0.0.4.tar.gz"
+    source_sha256 = "5d33b5b0a44ea7217f9bd72ff04d627807046b3594343bb130e051420be6e2d4"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/thin/releases/download/v0.0.3/thin-0.0.3.tgz"
-    version = "0.0.3"
+    uri = "https://github.com/paketo-community/thin/releases/download/v0.0.4/thin-0.0.4.tgz"
+    version = "0.0.4"
 
   [[metadata.dependencies]]
     id = "paketo-community/unicorn"
@@ -104,7 +104,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/thin"
-    version = "0.0.3"
+    version = "0.0.4"
 
 [[order]]
 
