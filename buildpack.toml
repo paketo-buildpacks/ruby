@@ -36,21 +36,21 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/puma"
-    sha256 = "647f049ae38e99f1364c2d06a0965a40b1b7b98744b3e586dae6bf9947a0af9a"
-    source = "https://github.com/paketo-community/puma/archive/v0.0.7.tar.gz"
-    source_sha256 = "3f80f7e38664a4908f59052b6eb13d7c0cc262b53d09c0c201eacc4016867642"
+    sha256 = "cf3723113e4e4cc2bc2165f539131c1b6384dc57e6d9d48072d66425a4ee8ab5"
+    source = "https://github.com/paketo-community/puma/archive/v0.0.9.tar.gz"
+    source_sha256 = "a2134440d115cc5836ac6404d482ae8b311df3321b5f7c04dc9b5cb89dca622d"
     stacks = ["org.cloudfoundry.stacks.cflinuxfs3", "io.buildpacks.stacks.bionic"]
-    uri = "https://github.com/paketo-community/puma/releases/download/v0.0.7/puma-0.0.7.tgz"
-    version = "0.0.7"
+    uri = "https://github.com/paketo-community/puma/releases/download/v0.0.9/puma-0.0.9.tgz"
+    version = "0.0.9"
 
   [[metadata.dependencies]]
     id = "paketo-community/thin"
-    sha256 = "8f410cb5274ca6d8f0bcf73711e08b0df7da10d0c4b34c5981316402fe0704c3"
-    source = "https://github.com/paketo-community/thin/archive/v0.0.3.tar.gz"
-    source_sha256 = "01a8460378c7b83d2b0ddfb65ed4cee3a14786009f5fe73015d636bf7a09dc6e"
+    sha256 = "393271e9bb550a9ef5c01987b08820ee1dbd009dbe7b3a1ef7a3278be22f8cad"
+    source = "https://github.com/paketo-community/thin/archive/v0.0.5.tar.gz"
+    source_sha256 = "417604ac78cdc85d26d066b7c0a3a6218afca3b9257199b0a3ae43eb9c0eb5a9"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/thin/releases/download/v0.0.3/thin-0.0.3.tgz"
-    version = "0.0.3"
+    uri = "https://github.com/paketo-community/thin/releases/download/v0.0.5/thin-0.0.5.tgz"
+    version = "0.0.5"
 
   [[metadata.dependencies]]
     id = "paketo-community/unicorn"
@@ -86,7 +86,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/puma"
-    version = "0.0.7"
+    version = "0.0.9"
 
 [[order]]
 
@@ -104,7 +104,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/thin"
-    version = "0.0.3"
+    version = "0.0.5"
 
 [[order]]
 
