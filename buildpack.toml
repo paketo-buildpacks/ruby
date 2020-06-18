@@ -63,12 +63,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/rackup"
-    sha256 = "a74a44f224fb0120dff36d6c7bf60fb9a4f923449754a6182d9932559be25a51"
-    source = "https://github.com/paketo-community/rackup/archive/v0.0.5.tar.gz"
-    source_sha256 = "df061f2a6cfd9f91a40a393eb025330a9876f387ea72ade9eb867dee648fe0d3"
+    sha256 = "2817a52d537fad5363e49001cf7633ab6389f2c65ebdaa9d62da5e7a941fe632"
+    source = "https://github.com/paketo-community/rackup/archive/v0.0.7.tar.gz"
+    source_sha256 = "d517cf91042fc04ac30b222866137e1e30d78127647b2deeec5a368af090efe3"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/rackup/releases/download/v0.0.5/rackup-0.0.5.tgz"
-    version = "0.0.5"
+    uri = "https://github.com/paketo-community/rackup/releases/download/v0.0.7/rackup-0.0.7.tgz"
+    version = "0.0.7"
 
 [[order]]
 
@@ -140,4 +140,4 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/rackup"
-    version = "0.0.5"
+    version = "0.0.7"
