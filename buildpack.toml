@@ -9,12 +9,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/mri"
-    sha256 = "0cbeadd45c49645bfa9ab831c4e358ac18a13911d599a6ab8c07d9a2335bdf80"
-    source = "https://github.com/paketo-community/mri/archive/v0.0.128.tar.gz"
-    source_sha256 = "f4d4d2451e92ba44f610ce5c13b68b4a856af7c65c1fb6e1b63b9f09f5e51f94"
+    sha256 = "99d73866d254d12182d0aa063cd31d3b9fe88b4a887480fd1edf64c787795242"
+    source = "https://github.com/paketo-community/mri/archive/v0.0.129.tar.gz"
+    source_sha256 = "b20407c0ced39855659b562e5ff57ba60b28f668b78cb0cf2c037036dbe567e6"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/mri/releases/download/v0.0.128/mri-0.0.128.tgz"
-    version = "0.0.128"
+    uri = "https://github.com/paketo-community/mri/releases/download/v0.0.129/mri-0.0.129.tgz"
+    version = "0.0.129"
 
   [[metadata.dependencies]]
     id = "paketo-community/bundler"
@@ -54,12 +54,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/unicorn"
-    sha256 = "09bd417d6eeb5093462b3bf91ba82745ab4111b748d73c455e94bcd61d4cafa9"
-    source = "https://github.com/paketo-community/unicorn/archive/v0.0.6.tar.gz"
-    source_sha256 = "a1a1ed59708fd4b5076612f72e6224be8a65e95eb97afaf843f357974e9cc081"
+    sha256 = "99e2764c400bf9b14150b931eab3e8e5ba2d5e240e2afcac9118d8acad4a2f78"
+    source = "https://github.com/paketo-community/unicorn/archive/v0.0.7.tar.gz"
+    source_sha256 = "f866a6bd729e3b657d5dda3ea00d8994efc5caa6a30e840bdd818f7008b41d56"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/unicorn/releases/download/v0.0.6/unicorn-0.0.6.tgz"
-    version = "0.0.6"
+    uri = "https://github.com/paketo-community/unicorn/releases/download/v0.0.7/unicorn-0.0.7.tgz"
+    version = "0.0.7"
 
   [[metadata.dependencies]]
     id = "paketo-community/rackup"
@@ -74,7 +74,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/mri"
-    version = "0.0.128"
+    version = "0.0.129"
 
   [[order.group]]
     id = "paketo-community/bundler"
@@ -92,7 +92,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/mri"
-    version = "0.0.128"
+    version = "0.0.129"
 
   [[order.group]]
     id = "paketo-community/bundler"
@@ -110,7 +110,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/mri"
-    version = "0.0.128"
+    version = "0.0.129"
 
   [[order.group]]
     id = "paketo-community/bundler"
@@ -122,13 +122,13 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/unicorn"
-    version = "0.0.6"
+    version = "0.0.7"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-community/mri"
-    version = "0.0.128"
+    version = "0.0.129"
 
   [[order.group]]
     id = "paketo-community/bundler"
