@@ -36,12 +36,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/puma"
-    sha256 = "757ddb167492ff4af6298645cc97f63b5fdd1c277dcc7088ae62f8c7d1e8f183"
-    source = "https://github.com/paketo-community/puma/archive/v0.0.14.tar.gz"
-    source_sha256 = "d46d4fc57c868e8a82c03d3ba6c115bc138b47d9d24e179f1e22ecfde44abd10"
+    sha256 = "eda07784b9cee5ea898209db943b0aa446e59b4910f667e1d1bd18dee3312cdf"
+    source = "https://github.com/paketo-community/puma/archive/v0.0.15.tar.gz"
+    source_sha256 = "3dbebc71256230978a62b940e9cb90f30e6d1d1e1bff80dcb9c9c2a9d862e7bc"
     stacks = ["org.cloudfoundry.stacks.cflinuxfs3", "io.buildpacks.stacks.bionic"]
-    uri = "https://github.com/paketo-community/puma/releases/download/v0.0.14/puma-0.0.14.tgz"
-    version = "0.0.14"
+    uri = "https://github.com/paketo-community/puma/releases/download/v0.0.15/puma-0.0.15.tgz"
+    version = "0.0.15"
 
   [[metadata.dependencies]]
     id = "paketo-community/thin"
@@ -54,21 +54,21 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/unicorn"
-    sha256 = "2ef228ef60f0b9eb71bb0e3aed3adb41b55775dbd3d0e9fdc0876bfb7d8125a9"
-    source = "https://github.com/paketo-community/unicorn/archive/v0.0.8.tar.gz"
-    source_sha256 = "4761e7d1cee2e4f7cf49265be744fcf1a732ce45d513e2373ad8cd9ead15b645"
+    sha256 = "258107ae7b47944aaf635e398334a822d9e1b88c66a0b778e49d0d6cee08c5f1"
+    source = "https://github.com/paketo-community/unicorn/archive/v0.0.9.tar.gz"
+    source_sha256 = "2ba9299e78343f04c00c1dfd8d34e597376b00aaf23e2ba78a4fd032f27507de"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/unicorn/releases/download/v0.0.8/unicorn-0.0.8.tgz"
-    version = "0.0.8"
+    uri = "https://github.com/paketo-community/unicorn/releases/download/v0.0.9/unicorn-0.0.9.tgz"
+    version = "0.0.9"
 
   [[metadata.dependencies]]
     id = "paketo-community/rackup"
-    sha256 = "5e8c14927da5b2f2b799d7950a7fb56143040571b7a80619d543b50a34a32a9b"
-    source = "https://github.com/paketo-community/rackup/archive/v0.0.13.tar.gz"
-    source_sha256 = "e8dba95096e777ace9d3c9b877260472f38c2d53798f7602f9b2c6ca3dc9c631"
+    sha256 = "9be3406d1e0cc0dd185f886cab03b159532ce61f06d157e7840fd77ac737dd26"
+    source = "https://github.com/paketo-community/rackup/archive/v0.0.14.tar.gz"
+    source_sha256 = "703b7775f2df667246f6ea6a223a3e301da6e3ac7ff9e3cfe8e34a72eac4d172"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/rackup/releases/download/v0.0.13/rackup-0.0.13.tgz"
-    version = "0.0.13"
+    uri = "https://github.com/paketo-community/rackup/releases/download/v0.0.14/rackup-0.0.14.tgz"
+    version = "0.0.14"
 
 [[order]]
 
@@ -86,7 +86,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/puma"
-    version = "0.0.14"
+    version = "0.0.15"
 
 [[order]]
 
@@ -122,7 +122,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/unicorn"
-    version = "0.0.8"
+    version = "0.0.9"
 
 [[order]]
 
@@ -140,4 +140,4 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/rackup"
-    version = "0.0.13"
+    version = "0.0.14"
