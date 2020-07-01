@@ -18,12 +18,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/bundler"
-    sha256 = "71f2c48301ecdb24eb151f021848df3baa80441e299539ee724e3cd5841f329c"
-    source = "https://github.com/paketo-community/bundler/archive/v0.0.121.tar.gz"
-    source_sha256 = "9f281777daf321edcb54c0e64051ae774d545d81345ef4e1b7d3e3863d893549"
+    sha256 = "bc21fb54b981b360ed8d5419b20774d09287cdc4399f16021b75a4eba8401017"
+    source = "https://github.com/paketo-community/bundler/archive/v0.0.123.tar.gz"
+    source_sha256 = "ec1bb67dfb88db5fb20b25a65d5f63826b5ef12cb0756edefec045023369296e"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/bundler/releases/download/v0.0.121/bundler-0.0.121.tgz"
-    version = "0.0.121"
+    uri = "https://github.com/paketo-community/bundler/releases/download/v0.0.123/bundler-0.0.123.tgz"
+    version = "0.0.123"
 
   [[metadata.dependencies]]
     id = "paketo-community/bundle-install"
@@ -78,7 +78,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/bundler"
-    version = "0.0.121"
+    version = "0.0.123"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
@@ -96,7 +96,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/bundler"
-    version = "0.0.121"
+    version = "0.0.123"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
@@ -114,7 +114,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/bundler"
-    version = "0.0.121"
+    version = "0.0.123"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
@@ -132,7 +132,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/bundler"
-    version = "0.0.121"
+    version = "0.0.123"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
