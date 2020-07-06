@@ -36,12 +36,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/puma"
-    sha256 = "677dac0f44093886fcfa397b2b704317d204eaa9d1cf1b2bc5fd66b6dc3cb52b"
-    source = "https://github.com/paketo-community/puma/archive/v0.0.20.tar.gz"
-    source_sha256 = "5a57f07b2b306ef5ec6a6f5776d1f55fb247ad8a77dbcf71ea27698424fee488"
+    sha256 = "70e0495456f0d1b1496c1b476adcfbbf45df6f0e92344aefa11978b5b97a2f52"
+    source = "https://github.com/paketo-community/puma/archive/v0.0.21.tar.gz"
+    source_sha256 = "a34b4166426e85ce09b5abecca37d3271dead6ea87543968c3d81680eae018bf"
     stacks = ["org.cloudfoundry.stacks.cflinuxfs3", "io.buildpacks.stacks.bionic"]
-    uri = "https://github.com/paketo-community/puma/releases/download/v0.0.20/puma-0.0.20.tgz"
-    version = "0.0.20"
+    uri = "https://github.com/paketo-community/puma/releases/download/v0.0.21/puma-0.0.21.tgz"
+    version = "0.0.21"
 
   [[metadata.dependencies]]
     id = "paketo-community/thin"
@@ -86,7 +86,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/puma"
-    version = "0.0.20"
+    version = "0.0.21"
 
 [[order]]
 
