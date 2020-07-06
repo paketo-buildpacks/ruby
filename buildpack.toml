@@ -54,12 +54,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/unicorn"
-    sha256 = "f69154a355e297de6c9ad135118dd5497fef5af8c6aeb6eb44907c9b2419d377"
-    source = "https://github.com/paketo-community/unicorn/archive/v0.0.15.tar.gz"
-    source_sha256 = "78d0b13b598115a21fca662ccbb109848757d5feb747525a61e0a564091000de"
+    sha256 = "711f0faabb3369d97165a088b2a7b5748550d7879538a3d4d730dc5e419c7e8f"
+    source = "https://github.com/paketo-community/unicorn/archive/v0.0.16.tar.gz"
+    source_sha256 = "7dabea5183da6e659b1c70869e9032beb9ddd9f50528b2fae58c772165b180e8"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/unicorn/releases/download/v0.0.15/unicorn-0.0.15.tgz"
-    version = "0.0.15"
+    uri = "https://github.com/paketo-community/unicorn/releases/download/v0.0.16/unicorn-0.0.16.tgz"
+    version = "0.0.16"
 
   [[metadata.dependencies]]
     id = "paketo-community/rackup"
@@ -122,7 +122,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/unicorn"
-    version = "0.0.15"
+    version = "0.0.16"
 
 [[order]]
 
