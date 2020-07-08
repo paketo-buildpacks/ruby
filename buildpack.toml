@@ -63,12 +63,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/rackup"
-    sha256 = "611bfe37188f07e834f32e2fd8d06c31cf3fd619a11a728832c8535e346c1a7f"
-    source = "https://github.com/paketo-community/rackup/archive/v0.0.21.tar.gz"
-    source_sha256 = "9861d5c18836fd0cdf8c265bc8459172092232a5af1de9a320da9c2d1cdf8eba"
+    sha256 = "cc0f6e5f6af36a7df0711484b98ad84606d92e329e6b78326c6893b961445e74"
+    source = "https://github.com/paketo-community/rackup/archive/v0.0.22.tar.gz"
+    source_sha256 = "2081e68de52f7892bc49370f769cc22a5035a0808cdabe72bb7cf5429797622b"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/rackup/releases/download/v0.0.21/rackup-0.0.21.tgz"
-    version = "0.0.21"
+    uri = "https://api.github.com/repos/paketo-community/rackup/releases/assets/22685433"
+    version = "0.0.22"
 
 [[order]]
 
@@ -140,4 +140,4 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/rackup"
-    version = "0.0.21"
+    version = "0.0.22"
