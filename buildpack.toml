@@ -27,12 +27,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/bundle-install"
-    sha256 = "96af0c756a4eb2b4907fdc013b5f5713a93a5b080a49bf27df7c8de7fe2ea203"
-    source = "https://github.com/paketo-community/bundle-install/archive/v0.0.34.tar.gz"
-    source_sha256 = "31987873ca2633de310394d21065278531aa1696d1d18801f2ee1a1cfe0d1873"
+    sha256 = "03e7e4e44e8c90e6be5f9817e3c4ecb8dbd1353e15f277c2c8122f03057d2869"
+    source = "https://github.com/paketo-community/bundle-install/archive/v0.0.35.tar.gz"
+    source_sha256 = "293ceea7065fcfa1bd7df161e1971c566b4118d0b5a3d89be46b454abf4f81e6"
     stacks = ["org.cloudfoundry.stacks.cflinuxfs3", "io.buildpacks.stacks.bionic"]
-    uri = "https://github.com/paketo-community/bundle-install/releases/download/v0.0.34/bundle-install-0.0.34.tgz"
-    version = "0.0.34"
+    uri = "https://github.com/paketo-community/bundle-install/releases/download/v0.0.35/bundle-install-0.0.35.tgz"
+    version = "0.0.35"
 
   [[metadata.dependencies]]
     id = "paketo-community/puma"
@@ -82,7 +82,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
-    version = "0.0.34"
+    version = "0.0.35"
 
   [[order.group]]
     id = "paketo-community/puma"
@@ -100,7 +100,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
-    version = "0.0.34"
+    version = "0.0.35"
 
   [[order.group]]
     id = "paketo-community/thin"
@@ -118,7 +118,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
-    version = "0.0.34"
+    version = "0.0.35"
 
   [[order.group]]
     id = "paketo-community/unicorn"
@@ -136,7 +136,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
-    version = "0.0.34"
+    version = "0.0.35"
 
   [[order.group]]
     id = "paketo-community/rackup"
