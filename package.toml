@@ -20,4 +20,4 @@
   image = "gcr.io/paketo-community/unicorn:0.0.21"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/rackup:0.0.25"
+  image = "gcr.io/paketo-community/rackup:0.0.26"
