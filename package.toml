@@ -5,19 +5,19 @@
   image = "gcr.io/paketo-community/mri:0.0.143"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/bundler:0.0.130"
+  image = "gcr.io/paketo-community/bundler:0.0.131"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/bundle-install:0.0.35"
+  image = "gcr.io/paketo-community/bundle-install:0.0.36"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/puma:0.0.26"
+  image = "gcr.io/paketo-community/puma:0.0.27"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/thin:0.0.23"
+  image = "gcr.io/paketo-community/thin:0.0.24"
 
 [[dependencies]]
   image = "gcr.io/paketo-community/unicorn:0.0.21"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/rackup:0.0.25"
+  image = "gcr.io/paketo-community/rackup:0.0.26"
