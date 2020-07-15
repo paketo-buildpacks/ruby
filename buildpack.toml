@@ -41,7 +41,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/thin"
-    version = "0.0.24"
+    version = "0.0.25"
 
 [[order]]
 
