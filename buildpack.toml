@@ -59,7 +59,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/unicorn"
-    version = "0.0.21"
+    version = "0.0.22"
 
 [[order]]
 
