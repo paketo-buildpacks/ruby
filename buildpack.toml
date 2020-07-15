@@ -7,137 +7,74 @@ api = "0.2"
 [metadata]
   include_files = ["buildpack.toml"]
 
-  [[metadata.dependencies]]
+[[order]]
+
+  [[order.group]]
     id = "paketo-community/mri"
-    sha256 = "90e37088c9bf676d4b7c00c1340aa4e8a4a650bccaa26bff8546de271049920a"
-    source = "https://github.com/paketo-community/mri/archive/v0.0.139.tar.gz"
-    source_sha256 = "494d3642c698db1fccd3bd04fae9cb77603831c0885c3494e8d53e73df9eb4b2"
-    stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/mri/releases/download/v0.0.139/mri-0.0.139.tgz"
-    version = "0.0.139"
+    version = "0.0.143"
 
-  [[metadata.dependencies]]
+  [[order.group]]
     id = "paketo-community/bundler"
-    sha256 = "4b8cc40fe25b369375e492507926aa3f2bb3d23e212bc7e7e1b802982b14d589"
-    source = "https://github.com/paketo-community/bundler/archive/v0.0.126.tar.gz"
-    source_sha256 = "0a0464ed6c153ce395676a0e93c28c97bcc86f3c25d86f1cbc2ec34ec63c0208"
-    stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/bundler/releases/download/v0.0.126/bundler-0.0.126.tgz"
-    version = "0.0.126"
+    version = "0.0.131"
 
-  [[metadata.dependencies]]
+  [[order.group]]
     id = "paketo-community/bundle-install"
-    sha256 = "8f9fd708963b642a0a43d4b7bdcde6878f5c6559605fcc9969ce6888dd06cc20"
-    source = "https://github.com/paketo-community/bundle-install/archive/v0.0.31.tar.gz"
-    source_sha256 = "2f01ecd39d3e3ca65ac1c306b34037127a95c2f4be3871ddfc26f9a4b03d2c98"
-    stacks = ["org.cloudfoundry.stacks.cflinuxfs3", "io.buildpacks.stacks.bionic"]
-    uri = "https://github.com/paketo-community/bundle-install/releases/download/v0.0.31/bundle-install-0.0.31.tgz"
-    version = "0.0.31"
+    version = "0.0.36"
 
-  [[metadata.dependencies]]
+  [[order.group]]
     id = "paketo-community/puma"
-    sha256 = "e31048ec0afaa1dbee6284b71e874f12fbcd3a71a73888467484f120bea23e68"
-    source = "https://github.com/paketo-community/puma/archive/v0.0.22.tar.gz"
-    source_sha256 = "32ac75be0ba5bfa2ade73bb7c0805ce70d6817844544a4d1046b4910a8d5636a"
-    stacks = ["org.cloudfoundry.stacks.cflinuxfs3", "io.buildpacks.stacks.bionic"]
-    uri = "https://github.com/paketo-community/puma/releases/download/v0.0.22/puma-0.0.22.tgz"
-    version = "0.0.22"
-
-  [[metadata.dependencies]]
-    id = "paketo-community/thin"
-    sha256 = "e7621b3ab5c8d3284c17b597d1bd2a05c4f0ea0e4f92583b6db3a0cf6c85e25a"
-    source = "https://github.com/paketo-community/thin/archive/v0.0.19.tar.gz"
-    source_sha256 = "fdd4e856ff094b954830d7171c09ad3c4affb65a70375de0b46c736594b2d271"
-    stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/thin/releases/download/v0.0.19/thin-0.0.19.tgz"
-    version = "0.0.19"
-
-  [[metadata.dependencies]]
-    id = "paketo-community/unicorn"
-    sha256 = "9f246d65e64d28c42ba1de94ce61202f45546dca9ac0c81ba908b88ef3fb3f7f"
-    source = "https://github.com/paketo-community/unicorn/archive/v0.0.17.tar.gz"
-    source_sha256 = "ad6ae2e0e85029f406e727b98df65cfd9d2ceb471d6792020610ae901ebb9369"
-    stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/unicorn/releases/download/v0.0.17/unicorn-0.0.17.tgz"
-    version = "0.0.17"
-
-  [[metadata.dependencies]]
-    id = "paketo-community/rackup"
-    sha256 = "611bfe37188f07e834f32e2fd8d06c31cf3fd619a11a728832c8535e346c1a7f"
-    source = "https://github.com/paketo-community/rackup/archive/v0.0.21.tar.gz"
-    source_sha256 = "9861d5c18836fd0cdf8c265bc8459172092232a5af1de9a320da9c2d1cdf8eba"
-    stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/rackup/releases/download/v0.0.21/rackup-0.0.21.tgz"
-    version = "0.0.21"
+    version = "0.0.27"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-community/mri"
-    version = "0.0.139"
+    version = "0.0.143"
 
   [[order.group]]
     id = "paketo-community/bundler"
-    version = "0.0.126"
+    version = "0.0.131"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
-    version = "0.0.31"
+    version = "0.0.36"
 
   [[order.group]]
-    id = "paketo-community/puma"
+    id = "paketo-community/thin"
+    version = "0.0.24"
+
+[[order]]
+
+  [[order.group]]
+    id = "paketo-community/mri"
+    version = "0.0.143"
+
+  [[order.group]]
+    id = "paketo-community/bundler"
+    version = "0.0.131"
+
+  [[order.group]]
+    id = "paketo-community/bundle-install"
+    version = "0.0.36"
+
+  [[order.group]]
+    id = "paketo-community/unicorn"
     version = "0.0.22"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-community/mri"
-    version = "0.0.139"
+    version = "0.0.143"
 
   [[order.group]]
     id = "paketo-community/bundler"
-    version = "0.0.126"
+    version = "0.0.131"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
-    version = "0.0.31"
-
-  [[order.group]]
-    id = "paketo-community/thin"
-    version = "0.0.19"
-
-[[order]]
-
-  [[order.group]]
-    id = "paketo-community/mri"
-    version = "0.0.139"
-
-  [[order.group]]
-    id = "paketo-community/bundler"
-    version = "0.0.126"
-
-  [[order.group]]
-    id = "paketo-community/bundle-install"
-    version = "0.0.31"
-
-  [[order.group]]
-    id = "paketo-community/unicorn"
-    version = "0.0.17"
-
-[[order]]
-
-  [[order.group]]
-    id = "paketo-community/mri"
-    version = "0.0.139"
-
-  [[order.group]]
-    id = "paketo-community/bundler"
-    version = "0.0.126"
-
-  [[order.group]]
-    id = "paketo-community/bundle-install"
-    version = "0.0.31"
+    version = "0.0.36"
 
   [[order.group]]
     id = "paketo-community/rackup"
-    version = "0.0.21"
+    version = "0.0.26"
