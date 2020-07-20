@@ -11,19 +11,19 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/mri"
-    version = "0.0.145"
+    version = "0.0.146"
 
   [[order.group]]
     id = "paketo-community/bundler"
-    version = "0.0.133"
+    version = "0.0.134"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
-    version = "0.0.38"
+    version = "0.0.39"
 
   [[order.group]]
     id = "paketo-community/puma"
-    version = "0.0.29"
+    version = "0.0.30"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -34,15 +34,15 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/mri"
-    version = "0.0.145"
+    version = "0.0.146"
 
   [[order.group]]
     id = "paketo-community/bundler"
-    version = "0.0.133"
+    version = "0.0.134"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
-    version = "0.0.38"
+    version = "0.0.39"
 
   [[order.group]]
     id = "paketo-community/thin"
@@ -57,19 +57,19 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/mri"
-    version = "0.0.145"
+    version = "0.0.146"
 
   [[order.group]]
     id = "paketo-community/bundler"
-    version = "0.0.133"
+    version = "0.0.134"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
-    version = "0.0.38"
+    version = "0.0.39"
 
   [[order.group]]
     id = "paketo-community/unicorn"
-    version = "0.0.24"
+    version = "0.0.25"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -80,19 +80,19 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/mri"
-    version = "0.0.145"
+    version = "0.0.146"
 
   [[order.group]]
     id = "paketo-community/bundler"
-    version = "0.0.133"
+    version = "0.0.134"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
-    version = "0.0.38"
+    version = "0.0.39"
 
   [[order.group]]
     id = "paketo-community/rackup"
-    version = "0.0.28"
+    version = "0.0.29"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
