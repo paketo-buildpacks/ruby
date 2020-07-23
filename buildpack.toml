@@ -46,7 +46,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/thin"
-    version = "0.0.29"
+    version = "0.0.30"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
