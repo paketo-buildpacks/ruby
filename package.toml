@@ -17,7 +17,7 @@
   image = "gcr.io/paketo-community/thin:0.0.33"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/unicorn:0.0.31"
+  image = "gcr.io/paketo-community/unicorn:0.0.32"
 
 [[dependencies]]
   image = "gcr.io/paketo-community/rackup:0.0.35"
