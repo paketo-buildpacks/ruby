@@ -5,7 +5,7 @@
   image = "gcr.io/paketo-community/mri:0.0.152"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/bundler:0.0.140"
+  image = "gcr.io/paketo-community/bundler:0.0.141"
 
 [[dependencies]]
   image = "gcr.io/paketo-community/bundle-install:0.0.45"
