@@ -11,7 +11,7 @@
   image = "gcr.io/paketo-community/bundle-install:0.0.46"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/puma:0.0.38"
+  image = "gcr.io/paketo-community/puma:0.0.39"
 
 [[dependencies]]
   image = "gcr.io/paketo-community/thin:0.0.34"
