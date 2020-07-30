@@ -21,8 +21,14 @@ jobs:
 
     - name: Checkout Branch
       run: |
-        git checkout \
-          -b "automation/dependency-update/${{ steps.dependency.outputs.id }}"
+        branch="automation/dependency-update/${{ steps.dependency.outputs.id }}"
+        git fetch origin
+        if git branch -vv -a | grep "${branch}"; then
+          git checkout -b "${branch}" "origin/${branch}"
+          git pull -r
+        else
+          git checkout -b "${branch}"
+        fi
 
     - name: Update buildpack.toml
       uses: paketo-buildpacks/github-config/actions/dependency/update@master
