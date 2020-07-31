@@ -8,16 +8,16 @@
   image = "gcr.io/paketo-community/bundler:0.0.143"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/bundle-install:0.0.48"
+  image = "gcr.io/paketo-community/bundle-install:0.0.49"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/puma:0.0.40"
+  image = "gcr.io/paketo-community/puma:0.0.41"
 
 [[dependencies]]
   image = "gcr.io/paketo-community/thin:0.0.36"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/unicorn:0.0.34"
+  image = "gcr.io/paketo-community/unicorn:0.0.35"
 
 [[dependencies]]
   image = "gcr.io/paketo-community/rackup:0.0.39"
