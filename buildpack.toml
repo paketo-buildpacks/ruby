@@ -11,7 +11,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/mri"
-    version = "0.0.153"
+    version = "0.0.154"
 
   [[order.group]]
     id = "paketo-community/bundler"
@@ -34,7 +34,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/mri"
-    version = "0.0.153"
+    version = "0.0.154"
 
   [[order.group]]
     id = "paketo-community/bundler"
@@ -57,7 +57,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/mri"
-    version = "0.0.153"
+    version = "0.0.154"
 
   [[order.group]]
     id = "paketo-community/bundler"
@@ -80,7 +80,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/mri"
-    version = "0.0.153"
+    version = "0.0.154"
 
   [[order.group]]
     id = "paketo-community/bundler"
