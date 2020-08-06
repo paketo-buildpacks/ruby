@@ -15,7 +15,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/bundler"
-    version = "0.0.146"
+    version = "0.0.148"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
@@ -23,7 +23,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/puma"
-    version = "0.0.43"
+    version = "0.0.45"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -38,7 +38,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/bundler"
-    version = "0.0.146"
+    version = "0.0.148"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
@@ -46,7 +46,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/thin"
-    version = "0.0.39"
+    version = "0.0.41"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -61,7 +61,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/bundler"
-    version = "0.0.146"
+    version = "0.0.148"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
@@ -84,7 +84,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/bundler"
-    version = "0.0.146"
+    version = "0.0.148"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
@@ -92,7 +92,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/rackup"
-    version = "0.0.41"
+    version = "0.0.43"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
