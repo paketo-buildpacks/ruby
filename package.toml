@@ -2,10 +2,10 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/mri:0.0.158"
+  image = "gcr.io/paketo-community/mri:0.0.159"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/bundler:0.0.148"
+  image = "gcr.io/paketo-community/bundler:0.0.149"
 
 [[dependencies]]
   image = "gcr.io/paketo-community/bundle-install:0.0.54"
@@ -20,7 +20,7 @@
   image = "gcr.io/paketo-community/unicorn:0.0.39"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/rackup:0.0.43"
+  image = "gcr.io/paketo-community/rackup:0.0.44"
 
 [[dependencies]]
   image = "gcr.io/paketo-buildpacks/procfile:1.4.0"
