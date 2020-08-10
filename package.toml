@@ -8,19 +8,19 @@
   image = "gcr.io/paketo-community/bundler:0.0.150"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/bundle-install:0.0.56"
+  image = "gcr.io/paketo-community/bundle-install:0.0.57"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/puma:0.0.46"
+  image = "gcr.io/paketo-community/puma:0.0.47"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/thin:0.0.42"
+  image = "gcr.io/paketo-community/thin:0.0.43"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/unicorn:0.0.40"
+  image = "gcr.io/paketo-community/unicorn:0.0.41"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/rackup:0.0.44"
+  image = "gcr.io/paketo-community/rackup:0.0.45"
 
 [[dependencies]]
   image = "gcr.io/paketo-buildpacks/procfile:1.4.0"
