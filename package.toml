@@ -24,3 +24,6 @@
 
 [[dependencies]]
   image = "gcr.io/paketo-buildpacks/procfile:1.4.0"
+
+[[dependencies]]
+  image = "gcr.io/paketo-community/passenger:0.0.1"
