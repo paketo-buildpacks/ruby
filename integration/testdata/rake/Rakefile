@@ -1,0 +1,9 @@
+task :simple do
+  puts "I am a rake task"
+end
+
+task :default => [:simple]
+
+task :proc do
+  puts "I am the proc rake task"
+end

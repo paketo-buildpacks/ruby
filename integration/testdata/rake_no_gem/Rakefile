@@ -1,0 +1,5 @@
+task :simple do
+  puts "I am a rake task"
+end
+
+task :default => [:simple]
