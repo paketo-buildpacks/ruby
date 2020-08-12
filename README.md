@@ -11,6 +11,8 @@ enable the building of a Ruby-based application. These buildpacks include:
 - [Thin](https://github.com/paketo-community/thin/)
 - [Unicorn](https://github.com/paketo-community/unicorn/)
 - [Rackup](https://github.com/paketo-community/rackup/)
+- [Passenger](https://github.com/paketo-community/passenger/)
+- [Rake](https://github.com/paketo-community/rake)
 
 The buildpack supports building simple Ruby applications or applications which
 utilize either [Bundler](https://bundler.io/) for managing their dependencies.
