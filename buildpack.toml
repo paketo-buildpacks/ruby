@@ -2,7 +2,7 @@ api = "0.2"
 
 [buildpack]
   id = "paketo-community/ruby"
-  name = "Ruby Buildpack"
+  name = "Paketo Ruby Buildpack"
 
 [metadata]
   include_files = ["buildpack.toml"]
