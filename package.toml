@@ -23,7 +23,7 @@
   image = "gcr.io/paketo-community/rackup:0.0.45"
 
 [[dependencies]]
-  image = "gcr.io/paketo-buildpacks/procfile:1.4.0"
+  image = "gcr.io/paketo-buildpacks/procfile:2.0.2"
 
 [[dependencies]]
   image = "gcr.io/paketo-community/passenger:0.0.8"
