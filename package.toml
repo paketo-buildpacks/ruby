@@ -26,7 +26,7 @@
   image = "gcr.io/paketo-buildpacks/procfile:2.0.2"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/passenger:0.0.8"
+  image = "gcr.io/paketo-community/passenger:0.0.9"
 
 [[dependencies]]
   image = "gcr.io/paketo-community/rake:0.0.3"
