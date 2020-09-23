@@ -29,4 +29,4 @@
   image = "gcr.io/paketo-community/passenger:0.0.8"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/rake:0.0.3"
+  image = "gcr.io/paketo-community/rake:0.0.4"
