@@ -15,7 +15,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/bundler"
-    version = "0.0.150"
+    version = "0.0.151"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
@@ -23,7 +23,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/puma"
-    version = "0.0.47"
+    version = "0.0.48"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -38,7 +38,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/bundler"
-    version = "0.0.150"
+    version = "0.0.151"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
@@ -46,7 +46,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/thin"
-    version = "0.0.43"
+    version = "0.0.44"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -61,7 +61,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/bundler"
-    version = "0.0.150"
+    version = "0.0.151"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
@@ -69,7 +69,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/unicorn"
-    version = "0.0.41"
+    version = "0.0.42"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -84,7 +84,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/bundler"
-    version = "0.0.150"
+    version = "0.0.151"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
@@ -92,7 +92,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/passenger"
-    version = "0.0.8"
+    version = "0.0.9"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -107,7 +107,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/bundler"
-    version = "0.0.150"
+    version = "0.0.151"
 
   [[order.group]]
     id = "paketo-community/bundle-install"
@@ -115,7 +115,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/rackup"
-    version = "0.0.45"
+    version = "0.0.46"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -130,7 +130,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/bundler"
-    version = "0.0.150"
+    version = "0.0.151"
     optional = true
 
   [[order.group]]
@@ -140,7 +140,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/rake"
-    version = "0.0.3"
+    version = "0.0.4"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
