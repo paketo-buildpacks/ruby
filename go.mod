@@ -1,4 +1,4 @@
-module github.com/paketo-community/ruby
+module github.com/paketo-buildpacks/ruby
 
 go 1.14
 
