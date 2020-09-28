@@ -1,6 +1,6 @@
 # Ruby Paketo Buildpack
 
-## `gcr.io/paketo-community/ruby`
+## `gcr.io/paketo-buildpacks/ruby`
 
 The Ruby Paketo Buildpack provides a set of collaborating buildpacks that
 enable the building of a Ruby-based application. These buildpacks include:
