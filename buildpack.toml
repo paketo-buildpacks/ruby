@@ -115,8 +115,8 @@ api = "0.2"
     version = "0.0.59"
 
   [[order.group]]
-    id = "paketo-community/rackup"
-    version = "0.0.46"
+    id = "paketo-buildpacks/rackup"
+    version = "0.0.47"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
