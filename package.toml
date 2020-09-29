@@ -14,7 +14,7 @@
   image = "gcr.io/paketo-community/puma:0.0.48"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/thin:0.0.44"
+  image = "gcr.io/paketo-buildpacks/thin:0.0.45"
 
 [[dependencies]]
   image = "gcr.io/paketo-community/unicorn:0.0.42"
@@ -30,6 +30,3 @@
 
 [[dependencies]]
   image = "gcr.io/paketo-community/rake:0.0.4"
-
-[[dependencies]]
-  image = "gcr.io/paketo-buildpacks/thin:0.0.45"
