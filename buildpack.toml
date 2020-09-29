@@ -92,8 +92,8 @@ api = "0.2"
     version = "0.0.59"
 
   [[order.group]]
-    id = "paketo-community/passenger"
-    version = "0.0.9"
+    id = "paketo-buildpacks/passenger"
+    version = "0.0.10"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
