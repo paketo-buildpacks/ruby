@@ -69,8 +69,8 @@ api = "0.2"
     version = "0.0.58"
 
   [[order.group]]
-    id = "paketo-community/unicorn"
-    version = "0.0.42"
+    id = "paketo-buildpacks/unicorn"
+    version = "0.0.43"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
