@@ -30,3 +30,6 @@
 
 [[dependencies]]
   image = "gcr.io/paketo-community/rake:0.0.4"
+
+[[dependencies]]
+  image = "gcr.io/paketo-buildpacks/rake:0.0.5"

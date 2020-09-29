@@ -1,9 +1,9 @@
 api = "0.2"
 
 [buildpack]
+  homepage = "https://github.com/paketo-buildpacks/ruby"
   id = "paketo-buildpacks/ruby"
   name = "Paketo Ruby Buildpack"
-  homepage = "https://github.com/paketo-buildpacks/ruby"
 
 [metadata]
   include_files = ["buildpack.toml"]
