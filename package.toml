@@ -8,7 +8,7 @@
   image = "gcr.io/paketo-buildpacks/bundler:0.0.152"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/bundle-install:0.0.58"
+  image = "gcr.io/paketo-buildpacks/bundle-install:0.0.59"
 
 [[dependencies]]
   image = "gcr.io/paketo-community/puma:0.0.48"
@@ -30,6 +30,3 @@
 
 [[dependencies]]
   image = "gcr.io/paketo-community/rake:0.0.4"
-
-[[dependencies]]
-  image = "gcr.io/paketo-buildpacks/bundle-install:0.0.59"
