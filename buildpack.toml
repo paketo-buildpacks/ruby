@@ -23,8 +23,8 @@ api = "0.2"
     version = "0.0.59"
 
   [[order.group]]
-    id = "paketo-community/puma"
-    version = "0.0.48"
+    id = "paketo-buildpacks/puma"
+    version = "0.0.49"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
