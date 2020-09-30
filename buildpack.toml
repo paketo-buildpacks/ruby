@@ -140,8 +140,8 @@ api = "0.2"
     optional = true
 
   [[order.group]]
-    id = "paketo-community/rake"
-    version = "0.0.4"
+    id = "paketo-buildpacks/rake"
+    version = "0.0.5"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
