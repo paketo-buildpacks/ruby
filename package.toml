@@ -2,13 +2,13 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/mri:0.0.162"
+  image = "gcr.io/paketo-buildpacks/mri:0.0.163"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/bundler:0.0.151"
+  image = "gcr.io/paketo-buildpacks/bundler:0.0.152"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/bundle-install:0.0.58"
+  image = "gcr.io/paketo-buildpacks/bundle-install:0.0.59"
 
 [[dependencies]]
   image = "gcr.io/paketo-buildpacks/puma:0.0.49"
