@@ -15,8 +15,8 @@ api = "0.2"
     version = "0.0.163"
 
   [[order.group]]
-    id = "paketo-community/bundler"
-    version = "0.0.151"
+    id = "paketo-buildpacks/bundler"
+    version = "0.0.152"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -38,8 +38,8 @@ api = "0.2"
     version = "0.0.163"
 
   [[order.group]]
-    id = "paketo-community/bundler"
-    version = "0.0.151"
+    id = "paketo-buildpacks/bundler"
+    version = "0.0.152"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -61,8 +61,8 @@ api = "0.2"
     version = "0.0.163"
 
   [[order.group]]
-    id = "paketo-community/bundler"
-    version = "0.0.151"
+    id = "paketo-buildpacks/bundler"
+    version = "0.0.152"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -84,8 +84,8 @@ api = "0.2"
     version = "0.0.163"
 
   [[order.group]]
-    id = "paketo-community/bundler"
-    version = "0.0.151"
+    id = "paketo-buildpacks/bundler"
+    version = "0.0.152"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -107,8 +107,8 @@ api = "0.2"
     version = "0.0.163"
 
   [[order.group]]
-    id = "paketo-community/bundler"
-    version = "0.0.151"
+    id = "paketo-buildpacks/bundler"
+    version = "0.0.152"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -130,8 +130,8 @@ api = "0.2"
     version = "0.0.163"
 
   [[order.group]]
-    id = "paketo-community/bundler"
-    version = "0.0.151"
+    id = "paketo-buildpacks/bundler"
+    version = "0.0.152"
     optional = true
 
   [[order.group]]
