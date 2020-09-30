@@ -2,7 +2,7 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/mri:0.0.162"
+  image = "gcr.io/paketo-buildpacks/mri:0.0.163"
 
 [[dependencies]]
   image = "gcr.io/paketo-community/bundler:0.0.151"
@@ -30,6 +30,3 @@
 
 [[dependencies]]
   image = "gcr.io/paketo-community/rake:0.0.4"
-
-[[dependencies]]
-  image = "gcr.io/paketo-buildpacks/mri:0.0.163"

@@ -11,8 +11,8 @@ api = "0.2"
 [[order]]
 
   [[order.group]]
-    id = "paketo-community/mri"
-    version = "0.0.162"
+    id = "paketo-buildpacks/mri"
+    version = "0.0.163"
 
   [[order.group]]
     id = "paketo-community/bundler"
@@ -34,8 +34,8 @@ api = "0.2"
 [[order]]
 
   [[order.group]]
-    id = "paketo-community/mri"
-    version = "0.0.162"
+    id = "paketo-buildpacks/mri"
+    version = "0.0.163"
 
   [[order.group]]
     id = "paketo-community/bundler"
@@ -57,8 +57,8 @@ api = "0.2"
 [[order]]
 
   [[order.group]]
-    id = "paketo-community/mri"
-    version = "0.0.162"
+    id = "paketo-buildpacks/mri"
+    version = "0.0.163"
 
   [[order.group]]
     id = "paketo-community/bundler"
@@ -80,8 +80,8 @@ api = "0.2"
 [[order]]
 
   [[order.group]]
-    id = "paketo-community/mri"
-    version = "0.0.162"
+    id = "paketo-buildpacks/mri"
+    version = "0.0.163"
 
   [[order.group]]
     id = "paketo-community/bundler"
@@ -103,8 +103,8 @@ api = "0.2"
 [[order]]
 
   [[order.group]]
-    id = "paketo-community/mri"
-    version = "0.0.162"
+    id = "paketo-buildpacks/mri"
+    version = "0.0.163"
 
   [[order.group]]
     id = "paketo-community/bundler"
@@ -126,8 +126,8 @@ api = "0.2"
 [[order]]
 
   [[order.group]]
-    id = "paketo-community/mri"
-    version = "0.0.162"
+    id = "paketo-buildpacks/mri"
+    version = "0.0.163"
 
   [[order.group]]
     id = "paketo-community/bundler"
