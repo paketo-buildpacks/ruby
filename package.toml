@@ -29,4 +29,4 @@
   image = "gcr.io/paketo-buildpacks/passenger:0.0.11"
 
 [[dependencies]]
-  image = "gcr.io/paketo-buildpacks/rake:0.0.5"
+  image = "gcr.io/paketo-buildpacks/rake:0.0.6"
