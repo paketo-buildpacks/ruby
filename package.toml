@@ -20,7 +20,7 @@
   image = "gcr.io/paketo-buildpacks/unicorn:0.0.43"
 
 [[dependencies]]
-  image = "gcr.io/paketo-buildpacks/rackup:0.0.47"
+  image = "gcr.io/paketo-buildpacks/rackup:0.0.48"
 
 [[dependencies]]
   image = "gcr.io/paketo-buildpacks/procfile:2.0.3"
