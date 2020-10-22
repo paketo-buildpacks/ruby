@@ -14,7 +14,7 @@
   image = "gcr.io/paketo-buildpacks/puma:0.0.51"
 
 [[dependencies]]
-  image = "gcr.io/paketo-buildpacks/thin:0.0.45"
+  image = "gcr.io/paketo-buildpacks/thin:0.0.46"
 
 [[dependencies]]
   image = "gcr.io/paketo-buildpacks/unicorn:0.0.44"
