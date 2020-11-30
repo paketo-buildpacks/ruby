@@ -18,3 +18,7 @@ The buildpack supports building simple Ruby applications or applications which
 utilize [Bundler](https://bundler.io/) for managing their dependencies. Usage
 examples can be found in the
 [`samples` repository under the `ruby` directory](https://github.com/paketo-buildpacks/samples/tree/main/ruby).
+
+#### The Ruby buildpack is compatible with the following builder(s):
+- [Paketo Full Builder](https://github.com/paketo-buildpacks/full-builder)
+- [Paketo Base Builder](https://github.com/paketo-buildpacks/base-builder)
