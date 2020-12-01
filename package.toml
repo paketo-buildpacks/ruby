@@ -1,32 +1,33 @@
+
 [buildpack]
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  image = "gcr.io/paketo-buildpacks/mri:0.0.164"
+  uri = "docker://gcr.io/paketo-buildpacks/mri:0.0.164"
 
 [[dependencies]]
-  image = "gcr.io/paketo-buildpacks/bundler:0.0.153"
+  uri = "docker://gcr.io/paketo-buildpacks/bundler:0.0.153"
 
 [[dependencies]]
-  image = "gcr.io/paketo-buildpacks/bundle-install:0.1.1"
+  uri = "docker://gcr.io/paketo-buildpacks/bundle-install:0.1.1"
 
 [[dependencies]]
-  image = "gcr.io/paketo-buildpacks/puma:0.0.53"
+  uri = "docker://gcr.io/paketo-buildpacks/puma:0.0.53"
 
 [[dependencies]]
-  image = "gcr.io/paketo-buildpacks/thin:0.0.46"
+  uri = "docker://gcr.io/paketo-buildpacks/thin:0.0.46"
 
 [[dependencies]]
-  image = "gcr.io/paketo-buildpacks/unicorn:0.0.44"
+  uri = "docker://gcr.io/paketo-buildpacks/unicorn:0.0.44"
 
 [[dependencies]]
-  image = "gcr.io/paketo-buildpacks/rackup:0.0.48"
+  uri = "docker://gcr.io/paketo-buildpacks/rackup:0.0.48"
 
 [[dependencies]]
-  image = "gcr.io/paketo-buildpacks/procfile:3.0.0"
+  uri = "docker://gcr.io/paketo-buildpacks/procfile:3.0.0"
 
 [[dependencies]]
-  image = "gcr.io/paketo-buildpacks/passenger:0.0.11"
+  uri = "docker://gcr.io/paketo-buildpacks/passenger:0.0.11"
 
 [[dependencies]]
-  image = "gcr.io/paketo-buildpacks/rake:0.0.6"
+  uri = "docker://gcr.io/paketo-buildpacks/rake:0.0.6"
