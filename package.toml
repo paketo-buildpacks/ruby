@@ -9,7 +9,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/bundler:0.0.153"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/bundle-install:0.1.1"
+  uri = "docker://gcr.io/paketo-buildpacks/bundle-install:0.1.2"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/puma:0.0.53"
