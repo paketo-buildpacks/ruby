@@ -63,12 +63,16 @@ func testRackup(t *testing.T, context spec.G, it spec.S) {
 				Execute(name, source)
 			Expect(err).NotTo(HaveOccurred(), logs.String())
 
-			container, err = docker.Container.Run.WithEnv(map[string]string{"PORT": "8080"}).Execute(image.ID)
+			container, err = docker.Container.Run.
+				WithEnv(map[string]string{"PORT": "8080"}).
+				WithPublish("8080").
+				WithPublishAll().
+				Execute(image.ID)
 			Expect(err).NotTo(HaveOccurred())
 
 			Eventually(container).Should(BeAvailable())
 
-			response, err := http.Get(fmt.Sprintf("http://localhost:%s", container.HostPort()))
+			response, err := http.Get(fmt.Sprintf("http://localhost:%s", container.HostPort("8080")))
 			Expect(err).NotTo(HaveOccurred())
 			defer response.Body.Close()
 
@@ -99,12 +103,16 @@ func testRackup(t *testing.T, context spec.G, it spec.S) {
 					Execute(name, source)
 				Expect(err).NotTo(HaveOccurred(), logs.String())
 
-				container, err = docker.Container.Run.WithEnv(map[string]string{"PORT": "5555"}).Execute(image.ID)
+				container, err = docker.Container.Run.
+					WithEnv(map[string]string{"PORT": "5555"}).
+					WithPublish("5555").
+					WithPublishAll().
+					Execute(image.ID)
 				Expect(err).NotTo(HaveOccurred())
 
 				Eventually(container).Should(BeAvailable())
 
-				response, err := http.Get(fmt.Sprintf("http://localhost:%s", container.HostPort()))
+				response, err := http.Get(fmt.Sprintf("http://localhost:%s", container.HostPort("5555")))
 				Expect(err).NotTo(HaveOccurred())
 				defer response.Body.Close()
 
