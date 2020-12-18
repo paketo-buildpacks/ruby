@@ -21,7 +21,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/unicorn:0.0.44"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/rackup:0.0.48"
+  uri = "docker://gcr.io/paketo-buildpacks/rackup:0.0.49"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/procfile:3.0.0"
