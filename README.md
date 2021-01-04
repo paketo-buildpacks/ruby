@@ -4,15 +4,19 @@
 
 The Ruby Paketo Buildpack provides a set of collaborating buildpacks that
 enable the building of a Ruby-based application. These buildpacks include:
-- [MRI](https://github.com/paketo-community/mri)
-- [Bundler](https://github.com/paketo-community/bundler)
-- [Bundle Install](https://github.com/paketo-community/bundle-install)
-- [Puma](https://github.com/paketo-community/puma/)
-- [Thin](https://github.com/paketo-community/thin/)
-- [Unicorn](https://github.com/paketo-community/unicorn/)
-- [Rackup](https://github.com/paketo-community/rackup/)
-- [Passenger](https://github.com/paketo-community/passenger/)
-- [Rake](https://github.com/paketo-community/rake)
+- [Bundle Install](https://github.com/paketo-buildpacks/bundle-install)
+- [Bundler](https://github.com/paketo-buildpacks/bundler)
+- [MRI](https://github.com/paketo-buildpacks/mri)
+- [Node Engine](https://github.com/paketo-buildpacks/node-engine)
+- [Passenger](https://github.com/paketo-buildpacks/passenger)
+- [Puma](https://github.com/paketo-buildpacks/puma)
+- [Rackup](https://github.com/paketo-buildpacks/rackup)
+- [Rails Assets](https://github.com/paketo-buildpacks/rails-assets)
+- [Rake](https://github.com/paketo-buildpacks/rake)
+- [Thin](https://github.com/paketo-buildpacks/thin)
+- [Unicorn](https://github.com/paketo-buildpacks/unicorn)
+- [Yarn Install](https://github.com/paketo-buildpacks/yarn-install)
+- [Yarn](https://github.com/paketo-buildpacks/yarn)
 
 The buildpack supports building simple Ruby applications or applications which
 utilize [Bundler](https://bundler.io/) for managing their dependencies. Usage

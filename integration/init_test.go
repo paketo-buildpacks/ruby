@@ -36,6 +36,7 @@ func TestIntegration(t *testing.T) {
 	suite("Passenger", testPassenger)
 	suite("Puma", testPuma)
 	suite("Rackup", testRackup)
+	suite("RailsAssets", testRailsAssets)
 	suite("Rake", testRake)
 	suite("Thin", testThin)
 	suite("Unicorn", testUnicorn)
