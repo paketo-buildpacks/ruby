@@ -24,23 +24,23 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
-    version = "0.1.4"
     optional = true
+    version = "0.1.5"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
-    version = "0.1.1"
     optional = true
+    version = "0.1.1"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
-    version = "0.2.1"
     optional = true
+    version = "0.2.1"
 
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
-    version = "0.0.1"
     optional = true
+    version = "0.0.1"
 
   [[order.group]]
     id = "paketo-buildpacks/puma"
@@ -67,23 +67,23 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
-    version = "0.1.4"
     optional = true
+    version = "0.1.5"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
-    version = "0.1.1"
     optional = true
+    version = "0.1.1"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
-    version = "0.2.1"
     optional = true
+    version = "0.2.1"
 
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
-    version = "0.0.1"
     optional = true
+    version = "0.0.1"
 
   [[order.group]]
     id = "paketo-buildpacks/thin"
@@ -110,23 +110,23 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
-    version = "0.1.4"
     optional = true
+    version = "0.1.5"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
-    version = "0.1.1"
     optional = true
+    version = "0.1.1"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
-    version = "0.2.1"
     optional = true
+    version = "0.2.1"
 
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
-    version = "0.0.1"
     optional = true
+    version = "0.0.1"
 
   [[order.group]]
     id = "paketo-buildpacks/unicorn"
@@ -153,23 +153,23 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
-    version = "0.1.4"
     optional = true
+    version = "0.1.5"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
-    version = "0.1.1"
     optional = true
+    version = "0.1.1"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
-    version = "0.2.1"
     optional = true
+    version = "0.2.1"
 
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
-    version = "0.0.1"
     optional = true
+    version = "0.0.1"
 
   [[order.group]]
     id = "paketo-buildpacks/passenger"
@@ -196,23 +196,23 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
-    version = "0.1.4"
     optional = true
+    version = "0.1.5"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
-    version = "0.1.1"
     optional = true
+    version = "0.1.1"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
-    version = "0.2.1"
     optional = true
+    version = "0.2.1"
 
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
-    version = "0.0.1"
     optional = true
+    version = "0.0.1"
 
   [[order.group]]
     id = "paketo-buildpacks/rackup"
