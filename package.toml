@@ -9,7 +9,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/bundler:0.1.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/mri:0.1.0"
+  uri = "docker://gcr.io/paketo-buildpacks/mri:0.1.1"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/node-engine:0.1.5"
