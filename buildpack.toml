@@ -25,12 +25,12 @@ api = "0.2"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "0.1.5"
+    version = "0.1.6"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
     optional = true
-    version = "0.1.1"
+    version = "0.1.2"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
@@ -68,12 +68,12 @@ api = "0.2"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "0.1.5"
+    version = "0.1.6"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
     optional = true
-    version = "0.1.1"
+    version = "0.1.2"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
@@ -111,12 +111,12 @@ api = "0.2"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "0.1.5"
+    version = "0.1.6"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
     optional = true
-    version = "0.1.1"
+    version = "0.1.2"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
@@ -154,12 +154,12 @@ api = "0.2"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "0.1.5"
+    version = "0.1.6"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
     optional = true
-    version = "0.1.1"
+    version = "0.1.2"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
@@ -197,12 +197,12 @@ api = "0.2"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "0.1.5"
+    version = "0.1.6"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
     optional = true
-    version = "0.1.1"
+    version = "0.1.2"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
