@@ -12,7 +12,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/mri:0.1.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/node-engine:0.1.5"
+  uri = "docker://gcr.io/paketo-buildpacks/node-engine:0.1.6"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/passenger:0.0.13"
@@ -42,4 +42,4 @@
   uri = "docker://gcr.io/paketo-buildpacks/yarn-install:0.2.2"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/yarn:0.1.1"
+  uri = "docker://gcr.io/paketo-buildpacks/yarn:0.1.2"
