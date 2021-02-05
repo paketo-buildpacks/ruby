@@ -3,13 +3,13 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/bundle-install:0.1.4"
+  uri = "docker://gcr.io/paketo-buildpacks/bundle-install:0.1.5"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/bundler:0.1.2"
+  uri = "docker://gcr.io/paketo-buildpacks/bundler:0.1.3"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/mri:0.1.1"
+  uri = "docker://gcr.io/paketo-buildpacks/mri:0.1.2"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/node-engine:0.1.6"
