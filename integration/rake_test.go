@@ -109,27 +109,33 @@ func testRake(t *testing.T, context spec.G, it spec.S) {
 				Eventually(rLogs).Should(ContainSubstring("I am a rake task"))
 
 				Expect(logs).To(ContainLines(ContainSubstring("MRI Buildpack")))
-				Expect(logs).NotTo(ContainLines(ContainSubstring("Bundler Buildpack")))
-				Expect(logs).NotTo(ContainLines(ContainSubstring("Bundle Install Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Rake Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("rake")))
+				Expect(logs).NotTo(ContainLines(ContainSubstring("Bundler Buildpack")))
+				Expect(logs).NotTo(ContainLines(ContainSubstring("Bundle Install Buildpack")))
 				Expect(logs).NotTo(ContainLines(ContainSubstring("Procfile Buildpack")))
-				Expect(logs).NotTo(ContainLines(ContainSubstring("Environment Variables Buildpack")))
+				Expect(logs).NotTo(ContainLines(ContainSubstring("Image Labels Buildpack")))
 			})
 		})
 
 		context("using optional utility buildpacks", func() {
-			it("creates a working OCI image that uses the start command from and includes environment buildpack functionality", func() {
+			it.Before(func() {
 				var err error
 				source, err = occam.Source(filepath.Join("testdata", "rake"))
 				Expect(err).NotTo(HaveOccurred())
 				Expect(ioutil.WriteFile(filepath.Join(source, "Procfile"), []byte("web: bundle exec rake proc"), 0644)).To(Succeed())
+			})
 
+			it("builds a working image that complies with utility buildpack functions", func() {
+				var err error
 				var logs fmt.Stringer
 				image, logs, err = pack.WithNoColor().Build.
 					WithBuildpacks(rubyBuildpack).
-					WithEnv(map[string]string{"BPE_SOME_VARIABLE": "SOME_VALUE"}).
 					WithPullPolicy("never").
+					WithEnv(map[string]string{
+						"BPE_SOME_VARIABLE": "SOME_VALUE",
+						"BP_IMAGE_LABELS":   "some-label=some-value",
+					}).
 					Execute(name, source)
 				Expect(err).NotTo(HaveOccurred(), logs.String())
 
@@ -152,8 +158,11 @@ func testRake(t *testing.T, context spec.G, it spec.S) {
 				Expect(logs).To(ContainLines(ContainSubstring("Bundle Install Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Rake Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Procfile Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("bundle exec rake proc")))
+				Expect(logs).To(ContainLines(ContainSubstring("Image Labels Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Environment Variables Buildpack")))
+				Expect(logs).To(ContainLines(ContainSubstring("bundle exec rake proc")))
+
+				Expect(image.Labels["some-label"]).To(Equal("some-value"))
 			})
 		})
 	})
