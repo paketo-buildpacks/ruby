@@ -87,18 +87,20 @@ func testThin(t *testing.T, context spec.G, it spec.S) {
 			Expect(logs).To(ContainLines(ContainSubstring("Bundle Install Buildpack")))
 			Expect(logs).To(ContainLines(ContainSubstring("Thin Buildpack")))
 			Expect(logs).NotTo(ContainLines(ContainSubstring("Procfile Buildpack")))
+			Expect(logs).NotTo(ContainLines(ContainSubstring("Environment Variables Buildpack")))
 		})
 
-		context("when there is a Procfile", func() {
+		context("using optional utility buildpacks", func() {
 			it.Before(func() {
 				Expect(ioutil.WriteFile(filepath.Join(source, "Procfile"), []byte("web: bundle exec thin -a 0.0.0.0 -p ${PORT} start"), 0644)).To(Succeed())
 			})
 
-			it("uses that Procfile for the start command", func() {
+			it("uses that Procfile for the start command and includes environment buildpack functionality", func() {
 				var err error
 				var logs fmt.Stringer
 				image, logs, err = pack.WithNoColor().Build.
 					WithBuildpacks(rubyBuildpack).
+					WithEnv(map[string]string{"BPE_SOME_VARIABLE": "SOME_VALUE"}).
 					WithPullPolicy("never").
 					Execute(name, source)
 				Expect(err).NotTo(HaveOccurred(), logs.String())
@@ -111,6 +113,9 @@ func testThin(t *testing.T, context spec.G, it spec.S) {
 				Expect(err).NotTo(HaveOccurred())
 
 				Eventually(container).Should(BeAvailable())
+
+				Expect(image.Buildpacks[5].Key).To(Equal("paketo-buildpacks/environment-variables"))
+				Expect(image.Buildpacks[5].Layers["environment-variables"].Metadata["variables"]).To(Equal(map[string]interface{}{"SOME_VARIABLE": "SOME_VALUE"}))
 
 				response, err := http.Get(fmt.Sprintf("http://localhost:%s", container.HostPort("8888")))
 				Expect(err).NotTo(HaveOccurred())
@@ -128,6 +133,7 @@ func testThin(t *testing.T, context spec.G, it spec.S) {
 				Expect(logs).To(ContainLines(ContainSubstring("Thin Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Procfile Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("bundle exec thin -a 0.0.0.0 -p ${PORT} start")))
+				Expect(logs).To(ContainLines(ContainSubstring("Environment Variables Buildpack")))
 			})
 		})
 	})

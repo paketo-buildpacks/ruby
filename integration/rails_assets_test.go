@@ -94,6 +94,7 @@ func testRailsAssets(t *testing.T, context spec.G, it spec.S) {
 			Expect(logs).To(ContainLines(ContainSubstring("Rails Assets Buildpack")))
 			Expect(logs).To(ContainLines(ContainSubstring("Puma Buildpack")))
 			Expect(logs).NotTo(ContainLines(ContainSubstring("Procfile Buildpack")))
+			Expect(logs).NotTo(ContainLines(ContainSubstring("Environment Variables Buildpack")))
 		})
 	})
 }
