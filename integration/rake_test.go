@@ -79,6 +79,8 @@ func testRake(t *testing.T, context spec.G, it spec.S) {
 				Expect(logs).To(ContainLines(ContainSubstring("Bundle Install Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Rake Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("bundle exec rake")))
+				Expect(logs).NotTo(ContainLines(ContainSubstring("Procfile Buildpack")))
+				Expect(logs).NotTo(ContainLines(ContainSubstring("Environment Variables Buildpack")))
 			})
 		})
 
@@ -111,11 +113,13 @@ func testRake(t *testing.T, context spec.G, it spec.S) {
 				Expect(logs).NotTo(ContainLines(ContainSubstring("Bundle Install Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Rake Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("rake")))
+				Expect(logs).NotTo(ContainLines(ContainSubstring("Procfile Buildpack")))
+				Expect(logs).NotTo(ContainLines(ContainSubstring("Environment Variables Buildpack")))
 			})
 		})
 
-		context("when there is a Procfile", func() {
-			it("creates a working OCI image that uses the start command from", func() {
+		context("using optional utility buildpacks", func() {
+			it("creates a working OCI image that uses the start command from and includes environment buildpack functionality", func() {
 				var err error
 				source, err = occam.Source(filepath.Join("testdata", "rake"))
 				Expect(err).NotTo(HaveOccurred())
@@ -124,12 +128,16 @@ func testRake(t *testing.T, context spec.G, it spec.S) {
 				var logs fmt.Stringer
 				image, logs, err = pack.WithNoColor().Build.
 					WithBuildpacks(rubyBuildpack).
+					WithEnv(map[string]string{"BPE_SOME_VARIABLE": "SOME_VALUE"}).
 					WithPullPolicy("never").
 					Execute(name, source)
 				Expect(err).NotTo(HaveOccurred(), logs.String())
 
 				container, err = docker.Container.Run.Execute(image.ID)
 				Expect(err).NotTo(HaveOccurred())
+
+				Expect(image.Buildpacks[5].Key).To(Equal("paketo-buildpacks/environment-variables"))
+				Expect(image.Buildpacks[5].Layers["environment-variables"].Metadata["variables"]).To(Equal(map[string]interface{}{"SOME_VARIABLE": "SOME_VALUE"}))
 
 				rLogs := func() fmt.Stringer {
 					rakeLogs, err := docker.Container.Logs.Execute(container.ID)
@@ -145,6 +153,7 @@ func testRake(t *testing.T, context spec.G, it spec.S) {
 				Expect(logs).To(ContainLines(ContainSubstring("Rake Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Procfile Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("bundle exec rake proc")))
+				Expect(logs).To(ContainLines(ContainSubstring("Environment Variables Buildpack")))
 			})
 		})
 	})
