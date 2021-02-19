@@ -3,7 +3,6 @@ package integration_test
 import (
 	"fmt"
 	"io/ioutil"
-	"net/http"
 	"os"
 	"path/filepath"
 	"testing"
@@ -74,15 +73,7 @@ func testUnicorn(t *testing.T, context spec.G, it spec.S) {
 
 			Expect(logs).NotTo(ContainLines(ContainSubstring("Environment Variables Buildpack")))
 
-			response, err := http.Get(fmt.Sprintf("http://localhost:%s", container.HostPort("8080")))
-			Expect(err).NotTo(HaveOccurred())
-			defer response.Body.Close()
-
-			Expect(response.StatusCode).To(Equal(http.StatusOK))
-
-			content, err := ioutil.ReadAll(response.Body)
-			Expect(err).NotTo(HaveOccurred())
-			Expect(string(content)).To(ContainSubstring("Hello world!"))
+			Eventually(container).Should(Serve(ContainSubstring("Hello world!")).OnPort(8080))
 
 			Expect(logs).To(ContainLines(ContainSubstring("MRI Buildpack")))
 			Expect(logs).To(ContainLines(ContainSubstring("Bundler Buildpack")))
@@ -123,15 +114,7 @@ func testUnicorn(t *testing.T, context spec.G, it spec.S) {
 				Expect(image.Buildpacks[5].Key).To(Equal("paketo-buildpacks/environment-variables"))
 				Expect(image.Buildpacks[5].Layers["environment-variables"].Metadata["variables"]).To(Equal(map[string]interface{}{"SOME_VARIABLE": "SOME_VALUE"}))
 
-				response, err := http.Get(fmt.Sprintf("http://localhost:%s", container.HostPort("8888")))
-				Expect(err).NotTo(HaveOccurred())
-				defer response.Body.Close()
-
-				Expect(response.StatusCode).To(Equal(http.StatusOK))
-
-				content, err := ioutil.ReadAll(response.Body)
-				Expect(err).NotTo(HaveOccurred())
-				Expect(string(content)).To(ContainSubstring("Hello world!"))
+				Eventually(container).Should(Serve(ContainSubstring("Hello world!")).OnPort(8888))
 
 				Expect(logs).To(ContainLines(ContainSubstring("MRI Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Bundler Buildpack")))

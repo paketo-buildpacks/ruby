@@ -2,8 +2,6 @@ package integration_test
 
 import (
 	"fmt"
-	"io/ioutil"
-	"net/http"
 	"os"
 	"path/filepath"
 	"testing"
@@ -75,15 +73,7 @@ func testRailsAssets(t *testing.T, context spec.G, it spec.S) {
 
 			Eventually(container).Should(BeAvailable())
 
-			response, err := http.Get(fmt.Sprintf("http://localhost:%s", container.HostPort("8080")))
-			Expect(err).NotTo(HaveOccurred())
-			defer response.Body.Close()
-
-			Expect(response.StatusCode).To(Equal(http.StatusOK))
-
-			content, err := ioutil.ReadAll(response.Body)
-			Expect(err).NotTo(HaveOccurred())
-			Expect(string(content)).To(ContainSubstring("Hello World!"))
+			Eventually(container).Should(Serve(ContainSubstring("Hello World!")).OnPort(8080))
 
 			Expect(logs).To(ContainLines(ContainSubstring("MRI Buildpack")))
 			Expect(logs).To(ContainLines(ContainSubstring("Bundler Buildpack")))
