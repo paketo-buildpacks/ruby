@@ -27,7 +27,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/puma:0.0.55"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/rackup:0.0.51"
+  uri = "docker://gcr.io/paketo-buildpacks/rackup:0.0.53"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/rails-assets:0.1.0"
