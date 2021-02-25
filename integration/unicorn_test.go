@@ -80,6 +80,7 @@ func testUnicorn(t *testing.T, context spec.G, it spec.S) {
 			Expect(logs).To(ContainLines(ContainSubstring("Bundle Install Buildpack")))
 			Expect(logs).To(ContainLines(ContainSubstring("Unicorn Buildpack")))
 			Expect(logs).NotTo(ContainLines(ContainSubstring("Procfile Buildpack")))
+			Expect(logs).NotTo(ContainLines(ContainSubstring("Image Labels Buildpack")))
 			Expect(logs).NotTo(ContainLines(ContainSubstring("Environment Variables Buildpack")))
 		})
 
@@ -88,13 +89,16 @@ func testUnicorn(t *testing.T, context spec.G, it spec.S) {
 				Expect(ioutil.WriteFile(filepath.Join(source, "Procfile"), []byte("web: bundle exec unicorn -l 0.0.0.0:${PORT}"), 0644)).To(Succeed())
 			})
 
-			it("uses Procfile for that start command and includes environment variables buildpack functionality", func() {
+			it("builds a working image that complies with utility buildpack functions", func() {
 				var err error
 				var logs fmt.Stringer
 				image, logs, err = pack.WithNoColor().Build.
 					WithBuildpacks(rubyBuildpack).
-					WithEnv(map[string]string{"BPE_SOME_VARIABLE": "SOME_VALUE"}).
 					WithPullPolicy("never").
+					WithEnv(map[string]string{
+						"BPE_SOME_VARIABLE": "SOME_VALUE",
+						"BP_IMAGE_LABELS":   "some-label=some-value",
+					}).
 					Execute(name, source)
 				Expect(err).NotTo(HaveOccurred(), logs.String())
 
@@ -117,8 +121,11 @@ func testUnicorn(t *testing.T, context spec.G, it spec.S) {
 				Expect(logs).To(ContainLines(ContainSubstring("Bundle Install Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Unicorn Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Procfile Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("bundle exec unicorn -l 0.0.0.0:${PORT}")))
+				Expect(logs).To(ContainLines(ContainSubstring("Image Labels Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Environment Variables Buildpack")))
+				Expect(logs).To(ContainLines(ContainSubstring("bundle exec unicorn -l 0.0.0.0:${PORT}")))
+
+				Expect(image.Labels["some-label"]).To(Equal("some-value"))
 			})
 		})
 	})

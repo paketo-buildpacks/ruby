@@ -77,6 +77,7 @@ func testPuma(t *testing.T, context spec.G, it spec.S) {
 			Expect(logs).To(ContainLines(ContainSubstring("Bundle Install Buildpack")))
 			Expect(logs).To(ContainLines(ContainSubstring("Puma Buildpack")))
 			Expect(logs).NotTo(ContainLines(ContainSubstring("Procfile Buildpack")))
+			Expect(logs).NotTo(ContainLines(ContainSubstring("Image Labels Buildpack")))
 		})
 
 		context("using optional utility buildpacks", func() {
@@ -84,13 +85,16 @@ func testPuma(t *testing.T, context spec.G, it spec.S) {
 				Expect(ioutil.WriteFile(filepath.Join(source, "Procfile"), []byte("web: bundle exec puma -b tcp://0.0.0.0:${PORT}"), 0644)).To(Succeed())
 			})
 
-			it("builds a working OCI image with start command from the Procfile and incorporating the utility buildpacks' effect", func() {
+			it("builds a working image that complies with utility buildpack functions", func() {
 				var err error
 				var logs fmt.Stringer
 				image, logs, err = pack.WithNoColor().Build.
-					WithEnv(map[string]string{"BPE_SOME_VARIABLE": "SOME_VALUE"}).
 					WithBuildpacks(rubyBuildpack).
 					WithPullPolicy("never").
+					WithEnv(map[string]string{
+						"BPE_SOME_VARIABLE": "SOME_VALUE",
+						"BP_IMAGE_LABELS":   "some-label=some-value",
+					}).
 					Execute(name, source)
 				Expect(err).NotTo(HaveOccurred(), logs.String())
 
@@ -113,8 +117,11 @@ func testPuma(t *testing.T, context spec.G, it spec.S) {
 				Expect(logs).To(ContainLines(ContainSubstring("Bundle Install Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Puma Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Procfile Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("bundle exec puma -b tcp://0.0.0.0:${PORT}")))
+				Expect(logs).To(ContainLines(ContainSubstring("Image Labels Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Environment Variables Buildpack")))
+				Expect(logs).To(ContainLines(ContainSubstring("bundle exec puma -b tcp://0.0.0.0:${PORT}")))
+
+				Expect(image.Labels["some-label"]).To(Equal("some-value"))
 			})
 		})
 	})

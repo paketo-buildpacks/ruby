@@ -25,7 +25,7 @@ api = "0.2"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "0.1.8"
+    version = "0.1.9"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
@@ -56,6 +56,11 @@ api = "0.2"
     optional = true
     version = "3.0.0"
 
+  [[order.group]]
+    id = "paketo-buildpacks/image-labels"
+    optional = true
+    version = "3.0.0"
+
 [[order]]
 
   [[order.group]]
@@ -73,7 +78,7 @@ api = "0.2"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "0.1.8"
+    version = "0.1.9"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
@@ -104,6 +109,11 @@ api = "0.2"
     optional = true
     version = "3.0.0"
 
+  [[order.group]]
+    id = "paketo-buildpacks/image-labels"
+    optional = true
+    version = "3.0.0"
+
 [[order]]
 
   [[order.group]]
@@ -121,7 +131,7 @@ api = "0.2"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "0.1.8"
+    version = "0.1.9"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
@@ -152,6 +162,11 @@ api = "0.2"
     optional = true
     version = "3.0.0"
 
+  [[order.group]]
+    id = "paketo-buildpacks/image-labels"
+    optional = true
+    version = "3.0.0"
+
 [[order]]
 
   [[order.group]]
@@ -169,7 +184,7 @@ api = "0.2"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "0.1.8"
+    version = "0.1.9"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
@@ -200,6 +215,11 @@ api = "0.2"
     optional = true
     version = "3.0.0"
 
+  [[order.group]]
+    id = "paketo-buildpacks/image-labels"
+    optional = true
+    version = "3.0.0"
+
 [[order]]
 
   [[order.group]]
@@ -217,7 +237,7 @@ api = "0.2"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "0.1.8"
+    version = "0.1.9"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
@@ -236,7 +256,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/rackup"
-    version = "0.0.51"
+    version = "0.0.53"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -245,6 +265,11 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
+    optional = true
+    version = "3.0.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/image-labels"
     optional = true
     version = "3.0.0"
 
@@ -275,5 +300,10 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
+    optional = true
+    version = "3.0.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/image-labels"
     optional = true
     version = "3.0.0"
