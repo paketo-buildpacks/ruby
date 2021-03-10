@@ -35,7 +35,7 @@ api = "0.2"
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
     optional = true
-    version = "0.2.4"
+    version = "0.2.5"
 
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
@@ -88,7 +88,7 @@ api = "0.2"
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
     optional = true
-    version = "0.2.4"
+    version = "0.2.5"
 
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
@@ -141,7 +141,7 @@ api = "0.2"
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
     optional = true
-    version = "0.2.4"
+    version = "0.2.5"
 
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
@@ -194,7 +194,7 @@ api = "0.2"
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
     optional = true
-    version = "0.2.4"
+    version = "0.2.5"
 
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
@@ -247,7 +247,7 @@ api = "0.2"
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
     optional = true
-    version = "0.2.4"
+    version = "0.2.5"
 
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
