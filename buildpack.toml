@@ -12,7 +12,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.1.4"
+    version = "0.1.5"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
@@ -65,7 +65,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.1.4"
+    version = "0.1.5"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
@@ -118,7 +118,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.1.4"
+    version = "0.1.5"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
@@ -171,7 +171,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.1.4"
+    version = "0.1.5"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
@@ -203,7 +203,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/passenger"
-    version = "0.0.15"
+    version = "0.0.16"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -224,7 +224,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.1.4"
+    version = "0.1.5"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
@@ -277,7 +277,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.1.4"
+    version = "0.1.5"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
