@@ -108,11 +108,12 @@ func testThin(t *testing.T, context spec.G, it spec.S) {
 
 				Eventually(container).Should(BeAvailable())
 
-				Expect(image.Buildpacks[5].Key).To(Equal("paketo-buildpacks/environment-variables"))
-				Expect(image.Buildpacks[5].Layers["environment-variables"].Metadata["variables"]).To(Equal(map[string]interface{}{"SOME_VARIABLE": "SOME_VALUE"}))
+				Expect(image.Buildpacks[6].Key).To(Equal("paketo-buildpacks/environment-variables"))
+				Expect(image.Buildpacks[6].Layers["environment-variables"].Metadata["variables"]).To(Equal(map[string]interface{}{"SOME_VARIABLE": "SOME_VALUE"}))
 
 				Eventually(container).Should(Serve(ContainSubstring("Hello world!")).OnPort(8888))
 
+				Expect(logs).To(ContainLines(ContainSubstring("CA Certificates Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("MRI Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Bundler Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Bundle Install Buildpack")))

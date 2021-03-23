@@ -109,9 +109,10 @@ func testRackup(t *testing.T, context spec.G, it spec.S) {
 				Eventually(container).Should(BeAvailable())
 				Eventually(container).Should(Serve(ContainSubstring("Hello world!")).OnPort(5555))
 
-				Expect(image.Buildpacks[5].Key).To(Equal("paketo-buildpacks/environment-variables"))
-				Expect(image.Buildpacks[5].Layers["environment-variables"].Metadata["variables"]).To(Equal(map[string]interface{}{"SOME_VARIABLE": "SOME_VALUE"}))
+				Expect(image.Buildpacks[6].Key).To(Equal("paketo-buildpacks/environment-variables"))
+				Expect(image.Buildpacks[6].Layers["environment-variables"].Metadata["variables"]).To(Equal(map[string]interface{}{"SOME_VARIABLE": "SOME_VALUE"}))
 
+				Expect(logs).To(ContainLines(ContainSubstring("CA Certificates Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("MRI Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Bundler Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Bundle Install Buildpack")))

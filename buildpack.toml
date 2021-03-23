@@ -11,6 +11,11 @@ api = "0.2"
 [[order]]
 
   [[order.group]]
+    id = "paketo-buildpacks/ca-certificates"
+    optional = true
+    version = "2.1.0"
+
+  [[order.group]]
     id = "paketo-buildpacks/mri"
     version = "0.1.5"
 
@@ -62,6 +67,11 @@ api = "0.2"
     version = "3.0.0"
 
 [[order]]
+
+  [[order.group]]
+    id = "paketo-buildpacks/ca-certificates"
+    optional = true
+    version = "2.1.0"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -117,6 +127,11 @@ api = "0.2"
 [[order]]
 
   [[order.group]]
+    id = "paketo-buildpacks/ca-certificates"
+    optional = true
+    version = "2.1.0"
+
+  [[order.group]]
     id = "paketo-buildpacks/mri"
     version = "0.1.5"
 
@@ -168,6 +183,11 @@ api = "0.2"
     version = "3.0.0"
 
 [[order]]
+
+  [[order.group]]
+    id = "paketo-buildpacks/ca-certificates"
+    optional = true
+    version = "2.1.0"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -223,6 +243,11 @@ api = "0.2"
 [[order]]
 
   [[order.group]]
+    id = "paketo-buildpacks/ca-certificates"
+    optional = true
+    version = "2.1.0"
+
+  [[order.group]]
     id = "paketo-buildpacks/mri"
     version = "0.1.5"
 
@@ -274,6 +299,11 @@ api = "0.2"
     version = "3.0.0"
 
 [[order]]
+
+  [[order.group]]
+    id = "paketo-buildpacks/ca-certificates"
+    optional = true
+    version = "2.1.0"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"

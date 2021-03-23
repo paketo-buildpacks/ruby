@@ -1,8 +1,11 @@
 package integration_test
 
 import (
+	"crypto/tls"
+	"crypto/x509"
 	"fmt"
 	"io/ioutil"
+	"net/http"
 	"os"
 	"path/filepath"
 	"testing"
@@ -142,8 +145,8 @@ func testRake(t *testing.T, context spec.G, it spec.S) {
 				container, err = docker.Container.Run.Execute(image.ID)
 				Expect(err).NotTo(HaveOccurred())
 
-				Expect(image.Buildpacks[5].Key).To(Equal("paketo-buildpacks/environment-variables"))
-				Expect(image.Buildpacks[5].Layers["environment-variables"].Metadata["variables"]).To(Equal(map[string]interface{}{"SOME_VARIABLE": "SOME_VALUE"}))
+				Expect(image.Buildpacks[6].Key).To(Equal("paketo-buildpacks/environment-variables"))
+				Expect(image.Buildpacks[6].Layers["environment-variables"].Metadata["variables"]).To(Equal(map[string]interface{}{"SOME_VARIABLE": "SOME_VALUE"}))
 
 				rLogs := func() fmt.Stringer {
 					rakeLogs, err := docker.Container.Logs.Execute(container.ID)
@@ -165,5 +168,88 @@ func testRake(t *testing.T, context spec.G, it spec.S) {
 				Expect(image.Labels["some-label"]).To(Equal("some-value"))
 			})
 		})
+
+		context("when using CA certificates", func() {
+			var (
+				client *http.Client
+			)
+
+			it.Before(func() {
+				var err error
+				name, err = occam.RandomName()
+				Expect(err).NotTo(HaveOccurred())
+				source, err = occam.Source(filepath.Join("testdata", "ca_cert_app"))
+				Expect(err).NotTo(HaveOccurred())
+
+				caCert, err := ioutil.ReadFile(fmt.Sprintf("%s/certs/ca.pem", source))
+				Expect(err).ToNot(HaveOccurred())
+
+				caCertPool := x509.NewCertPool()
+				caCertPool.AppendCertsFromPEM(caCert)
+
+				cert, err := tls.LoadX509KeyPair(fmt.Sprintf("%s/certs/cert.pem", source), fmt.Sprintf("%s/certs/key.pem", source))
+				Expect(err).ToNot(HaveOccurred())
+
+				client = &http.Client{
+					Transport: &http.Transport{
+						TLSClientConfig: &tls.Config{
+							RootCAs:      caCertPool,
+							Certificates: []tls.Certificate{cert},
+							MinVersion:   tls.VersionTLS12,
+						},
+					},
+				}
+			})
+
+			it("builds a working OCI image with given CA cert added to trust store", func() {
+				var err error
+				var logs fmt.Stringer
+				image, logs, err = pack.WithNoColor().Build.
+					WithBuildpacks(rubyBuildpack).
+					WithPullPolicy("never").
+					Execute(name, source)
+				Expect(err).NotTo(HaveOccurred())
+
+				Expect(logs).To(ContainLines(ContainSubstring("CA Certificates Buildpack")))
+				Expect(logs).To(ContainLines(ContainSubstring("MRI Buildpack")))
+				Expect(logs).To(ContainLines(ContainSubstring("Rake Buildpack")))
+
+				container, err = docker.Container.Run.
+					WithPublish("8080").
+					WithEnv(map[string]string{
+						"PORT":                 "8080",
+						"SERVICE_BINDING_ROOT": "/bindings",
+					}).
+					WithVolume(fmt.Sprintf("%s/binding:/bindings/ca-certificates", source)).
+					Execute(image.ID)
+				Expect(err).NotTo(HaveOccurred())
+
+				Eventually(func() string {
+					cLogs, err := docker.Container.Logs.Execute(container.ID)
+					Expect(err).NotTo(HaveOccurred())
+					return cLogs.String()
+				}).Should(
+					ContainSubstring("Added 1 additional CA certificate(s) to system truststore"),
+				)
+
+				request, err := http.NewRequest("GET", fmt.Sprintf("https://localhost:%s", container.HostPort("8080")), nil)
+				Expect(err).NotTo(HaveOccurred())
+
+				var response *http.Response
+				Eventually(func() error {
+					var err error
+					response, err = client.Do(request)
+					return err
+				}).Should(BeNil())
+				defer response.Body.Close()
+
+				Expect(response.StatusCode).To(Equal(http.StatusOK))
+
+				content, err := ioutil.ReadAll(response.Body)
+				Expect(err).NotTo(HaveOccurred())
+				Expect(string(content)).To(ContainSubstring("Hello world, Authenticated User!"))
+			})
+		})
+
 	})
 }
