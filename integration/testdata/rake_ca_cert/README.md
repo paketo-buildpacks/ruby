@@ -3,7 +3,7 @@
 Usage:
 
 ```
-pack build appimage -b gcr.io/paketo-buildpacks/ca-certificates -b gcr.io/paketo-buildpacks/ruby
+pack build appimage -b gcr.io/paketo-buildpacks/ruby
 ```
 
 ```
@@ -11,6 +11,6 @@ docker run --init -it -e SERVICE_BINDING_ROOT=/bindings -v "$PWD"/binding:/bindi
 ```
 
 ```
-curl --cert cert.pem --key key.pem --cacert ca.pem https://localhost:8443
-Hello, world!
+curl --cert cert.pem --key key.pem --cacert ca.pem https://localhost:8080
+Hello World, Authenticated User!
 ```

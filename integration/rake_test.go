@@ -178,7 +178,7 @@ func testRake(t *testing.T, context spec.G, it spec.S) {
 				var err error
 				name, err = occam.RandomName()
 				Expect(err).NotTo(HaveOccurred())
-				source, err = occam.Source(filepath.Join("testdata", "ca_cert_app"))
+				source, err = occam.Source(filepath.Join("testdata", "rake_ca_cert"))
 				Expect(err).NotTo(HaveOccurred())
 
 				caCert, err := ioutil.ReadFile(fmt.Sprintf("%s/certs/ca.pem", source))

@@ -14,7 +14,7 @@ cert_store.set_default_paths
 
 server = WEBrick::HTTPServer.new(
   Port: 8080,
-  Logger: WEBrick::Log.new($stderr, WEBrick::Log::DEBUG),
+  Logger: WEBrick::Log.new($stderr, WEBrick::Log::WARN),
   SSLEnable: true,
   SSLVerifyClient: OpenSSL::SSL::VERIFY_PEER | OpenSSL::SSL::VERIFY_FAIL_IF_NO_PEER_CERT,
   SSLCertificate: cert,
