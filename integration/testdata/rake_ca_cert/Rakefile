@@ -1,0 +1,4 @@
+task :server do
+  require './server.rb'
+end
+task :default => [:server]
