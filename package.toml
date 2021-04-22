@@ -6,13 +6,13 @@
   uri = "docker://gcr.io/paketo-buildpacks/bundle-install:0.2.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/bundler:0.1.5"
+  uri = "docker://gcr.io/paketo-buildpacks/bundler:0.1.6"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/image-labels:3.0.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/mri:0.1.5"
+  uri = "docker://gcr.io/paketo-buildpacks/mri:0.1.6"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/node-engine:0.3.1"
@@ -24,13 +24,13 @@
   uri = "docker://gcr.io/paketo-buildpacks/procfile:4.1.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/puma:0.0.57"
+  uri = "docker://gcr.io/paketo-buildpacks/puma:0.0.58"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/rackup:0.0.55"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/rails-assets:0.2.0"
+  uri = "docker://gcr.io/paketo-buildpacks/rails-assets:0.2.1"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/rake:0.0.10"
