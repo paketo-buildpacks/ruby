@@ -107,7 +107,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/thin"
-    version = "0.0.50"
+    version = "0.0.51"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -165,7 +165,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/unicorn"
-    version = "0.0.48"
+    version = "0.0.49"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -223,7 +223,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/passenger"
-    version = "0.0.16"
+    version = "0.0.17"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -281,7 +281,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/rackup"
-    version = "0.0.55"
+    version = "0.0.56"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -321,7 +321,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/rake"
-    version = "0.0.10"
+    version = "0.0.11"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
