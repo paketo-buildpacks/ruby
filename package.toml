@@ -9,7 +9,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/bundler:0.1.6"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/image-labels:3.0.0"
+  uri = "docker://gcr.io/paketo-buildpacks/image-labels:3.1.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/mri:0.2.1"
@@ -21,7 +21,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/passenger:0.0.17"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/procfile:4.1.0"
+  uri = "docker://gcr.io/paketo-buildpacks/procfile:4.2.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/puma:0.0.58"
@@ -48,7 +48,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/yarn:0.2.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/environment-variables:3.0.0"
+  uri = "docker://gcr.io/paketo-buildpacks/environment-variables:3.1.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/ca-certificates:2.2.0"
+  uri = "docker://gcr.io/paketo-buildpacks/ca-certificates:2.3.0"
