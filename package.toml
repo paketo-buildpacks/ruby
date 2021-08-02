@@ -12,7 +12,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/image-labels:3.1.2"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/mri:0.2.2"
+  uri = "docker://gcr.io/paketo-buildpacks/mri:0.2.3"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/node-engine:0.6.1"
