@@ -17,15 +17,15 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.2.3"
+    version = "0.2.4"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.1.7"
+    version = "0.1.8"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
-    version = "0.2.2"
+    version = "0.2.3"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
@@ -75,15 +75,15 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.2.3"
+    version = "0.2.4"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.1.7"
+    version = "0.1.8"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
-    version = "0.2.2"
+    version = "0.2.3"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
@@ -133,15 +133,15 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.2.3"
+    version = "0.2.4"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.1.7"
+    version = "0.1.8"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
-    version = "0.2.2"
+    version = "0.2.3"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
@@ -191,15 +191,15 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.2.3"
+    version = "0.2.4"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.1.7"
+    version = "0.1.8"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
-    version = "0.2.2"
+    version = "0.2.3"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
@@ -249,15 +249,15 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.2.3"
+    version = "0.2.4"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.1.7"
+    version = "0.1.8"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
-    version = "0.2.2"
+    version = "0.2.3"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
@@ -307,17 +307,17 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.2.3"
+    version = "0.2.4"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
     optional = true
-    version = "0.1.7"
+    version = "0.1.8"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
     optional = true
-    version = "0.2.2"
+    version = "0.2.3"
 
   [[order.group]]
     id = "paketo-buildpacks/rake"
