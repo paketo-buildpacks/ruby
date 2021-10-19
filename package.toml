@@ -6,7 +6,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/bundle-install:0.2.4"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/bundler:0.1.9"
+  uri = "docker://gcr.io/paketo-buildpacks/bundler:0.2.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/image-labels:3.2.2"
