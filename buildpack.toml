@@ -45,7 +45,7 @@ api = "0.2"
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
     optional = true
-    version = "0.2.4"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/puma"
@@ -103,7 +103,7 @@ api = "0.2"
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
     optional = true
-    version = "0.2.4"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/thin"
@@ -161,7 +161,7 @@ api = "0.2"
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
     optional = true
-    version = "0.2.4"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/unicorn"
@@ -219,7 +219,7 @@ api = "0.2"
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
     optional = true
-    version = "0.2.4"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/passenger"
@@ -277,7 +277,7 @@ api = "0.2"
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
     optional = true
-    version = "0.2.4"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/rackup"
@@ -321,7 +321,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/rake"
-    version = "0.0.14"
+    version = "0.1.0"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
