@@ -9,7 +9,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/bundler:0.2.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/image-labels:3.2.2"
+  uri = "docker://gcr.io/paketo-buildpacks/image-labels:3.2.3"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/mri:0.3.0"
