@@ -21,7 +21,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.2.0"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -49,7 +49,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/puma"
-    version = "0.1.0"
+    version = "0.2.0"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -79,7 +79,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.2.0"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -137,7 +137,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.2.0"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -195,7 +195,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.2.0"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -253,7 +253,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.2.0"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -312,7 +312,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/bundler"
     optional = true
-    version = "0.2.0"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -321,7 +321,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/rake"
-    version = "0.1.0"
+    version = "0.2.0"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"

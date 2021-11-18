@@ -6,7 +6,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/bundle-install:0.3.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/bundler:0.2.0"
+  uri = "docker://gcr.io/paketo-buildpacks/bundler:0.3.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/image-labels:3.2.3"
@@ -24,7 +24,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/procfile:4.4.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/puma:0.1.0"
+  uri = "docker://gcr.io/paketo-buildpacks/puma:0.2.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/rackup:0.2.0"
@@ -33,7 +33,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/rails-assets:0.3.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/rake:0.1.0"
+  uri = "docker://gcr.io/paketo-buildpacks/rake:0.2.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/thin:0.2.0"
