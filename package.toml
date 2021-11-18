@@ -30,7 +30,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/rackup:0.2.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/rails-assets:0.3.0"
+  uri = "docker://gcr.io/paketo-buildpacks/rails-assets:0.4.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/rake:0.2.0"
