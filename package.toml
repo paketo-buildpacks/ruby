@@ -3,7 +3,7 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/bundle-install:0.2.4"
+  uri = "docker://gcr.io/paketo-buildpacks/bundle-install:0.3.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/bundler:0.2.0"
@@ -12,13 +12,13 @@
   uri = "docker://gcr.io/paketo-buildpacks/image-labels:3.2.3"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/mri:0.3.0"
+  uri = "docker://gcr.io/paketo-buildpacks/mri:0.4.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/node-engine:0.11.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/passenger:0.2.0"
+  uri = "docker://gcr.io/paketo-buildpacks/passenger:0.3.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/procfile:4.4.1"
@@ -27,7 +27,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/puma:0.1.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/rackup:0.1.0"
+  uri = "docker://gcr.io/paketo-buildpacks/rackup:0.2.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/rails-assets:0.3.0"
@@ -36,10 +36,10 @@
   uri = "docker://gcr.io/paketo-buildpacks/rake:0.1.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/thin:0.1.0"
+  uri = "docker://gcr.io/paketo-buildpacks/thin:0.2.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/unicorn:0.1.0"
+  uri = "docker://gcr.io/paketo-buildpacks/unicorn:0.2.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/yarn-install:0.5.0"

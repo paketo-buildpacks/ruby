@@ -17,7 +17,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.3.0"
+    version = "0.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
@@ -25,7 +25,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
-    version = "0.2.4"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
@@ -75,7 +75,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.3.0"
+    version = "0.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
@@ -83,7 +83,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
-    version = "0.2.4"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
@@ -107,7 +107,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/thin"
-    version = "0.1.0"
+    version = "0.2.0"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -133,7 +133,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.3.0"
+    version = "0.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
@@ -141,7 +141,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
-    version = "0.2.4"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
@@ -165,7 +165,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/unicorn"
-    version = "0.1.0"
+    version = "0.2.0"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -191,7 +191,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.3.0"
+    version = "0.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
@@ -199,7 +199,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
-    version = "0.2.4"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
@@ -223,7 +223,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/passenger"
-    version = "0.2.0"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -249,7 +249,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.3.0"
+    version = "0.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
@@ -257,7 +257,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
-    version = "0.2.4"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
@@ -281,7 +281,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/rackup"
-    version = "0.1.0"
+    version = "0.2.0"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -307,7 +307,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.3.0"
+    version = "0.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
@@ -317,7 +317,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
     optional = true
-    version = "0.2.4"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/rake"
