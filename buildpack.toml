@@ -1,9 +1,15 @@
 api = "0.6"
 
 [buildpack]
+  description = "A language family buildpack for pulling in all buildpacks related to building .NET Core apps"
   homepage = "https://github.com/paketo-buildpacks/ruby"
   id = "paketo-buildpacks/ruby"
+  keywords = ["ruby"]
   name = "Paketo Ruby Buildpack"
+
+  [[buildpack.licenses]]
+    type = "Apache-2.0"
+    uri = "https://github.com/paketo-buildpacks/ruby/blob/main/LICENSE"
 
 [metadata]
   include-files = ["buildpack.toml"]
