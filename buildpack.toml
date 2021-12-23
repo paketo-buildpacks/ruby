@@ -13,7 +13,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.0.1"
+    version = "3.0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -64,14 +64,14 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.0.1"
+    version = "4.0.2"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.0.1"
+    version = "3.0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -122,14 +122,14 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.0.1"
+    version = "4.0.2"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.0.1"
+    version = "3.0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -180,14 +180,14 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.0.1"
+    version = "4.0.2"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.0.1"
+    version = "3.0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -238,14 +238,14 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.0.1"
+    version = "4.0.2"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.0.1"
+    version = "3.0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -296,14 +296,14 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.0.1"
+    version = "4.0.2"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.0.1"
+    version = "3.0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -336,4 +336,4 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.0.1"
+    version = "4.0.2"
