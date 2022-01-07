@@ -1,7 +1,7 @@
 api = "0.6"
 
 [buildpack]
-  description = "A language family buildpack for pulling in all buildpacks related to building .NET Core apps"
+  description = "A language family buildpack for building Ruby apps"
   homepage = "https://github.com/paketo-buildpacks/ruby"
   id = "paketo-buildpacks/ruby"
   keywords = ["ruby"]
