@@ -220,7 +220,7 @@ func testRake(t *testing.T, context spec.G, it spec.S) {
 						"PORT":                 "8080",
 						"SERVICE_BINDING_ROOT": "/bindings",
 					}).
-					WithVolume(fmt.Sprintf("%s/binding:/bindings/ca-certificates", source)).
+					WithVolumes(fmt.Sprintf("%s/binding:/bindings/ca-certificates", source)).
 					Execute(image.ID)
 				Expect(err).NotTo(HaveOccurred())
 
