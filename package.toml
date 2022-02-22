@@ -6,13 +6,13 @@
   uri = "docker://gcr.io/paketo-buildpacks/bundle-install:0.3.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/bundler:0.3.1"
+  uri = "docker://gcr.io/paketo-buildpacks/bundler:0.4.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/image-labels:4.0.3"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/mri:0.6.0"
+  uri = "docker://gcr.io/paketo-buildpacks/mri:0.6.1"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/node-engine:0.11.4"
