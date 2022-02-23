@@ -42,10 +42,10 @@
   uri = "docker://gcr.io/paketo-buildpacks/unicorn:0.2.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/yarn-install:0.7.1"
+  uri = "docker://gcr.io/paketo-buildpacks/yarn-install:0.8.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/yarn:0.5.1"
+  uri = "docker://gcr.io/paketo-buildpacks/yarn:0.6.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/environment-variables:4.0.3"
