@@ -15,7 +15,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/mri:0.6.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/node-engine:0.12.0"
+  uri = "docker://gcr.io/paketo-buildpacks/node-engine:0.12.1"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/passenger:0.3.1"
