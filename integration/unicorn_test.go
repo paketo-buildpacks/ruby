@@ -2,7 +2,6 @@ package integration_test
 
 import (
 	"fmt"
-	"io/ioutil"
 	"os"
 	"path/filepath"
 	"testing"
@@ -86,7 +85,7 @@ func testUnicorn(t *testing.T, context spec.G, it spec.S) {
 
 		context("using optional utility buildpacks", func() {
 			it.Before(func() {
-				Expect(ioutil.WriteFile(filepath.Join(source, "Procfile"), []byte("web: bundle exec unicorn -l 0.0.0.0:${PORT}"), 0644)).To(Succeed())
+				Expect(os.WriteFile(filepath.Join(source, "Procfile"), []byte("web: bundle exec unicorn -l 0.0.0.0:${PORT}"), 0644)).To(Succeed())
 			})
 
 			it("builds a working image that complies with utility buildpack functions", func() {
