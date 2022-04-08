@@ -4,7 +4,7 @@ import (
 	"crypto/tls"
 	"crypto/x509"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"net/http"
 	"os"
 	"path/filepath"
@@ -126,7 +126,7 @@ func testRake(t *testing.T, context spec.G, it spec.S) {
 				var err error
 				source, err = occam.Source(filepath.Join("testdata", "rake"))
 				Expect(err).NotTo(HaveOccurred())
-				Expect(ioutil.WriteFile(filepath.Join(source, "Procfile"), []byte("web: bundle exec rake proc"), 0644)).To(Succeed())
+				Expect(os.WriteFile(filepath.Join(source, "Procfile"), []byte("web: bundle exec rake proc"), 0644)).To(Succeed())
 			})
 
 			it("builds a working image that complies with utility buildpack functions", func() {
@@ -181,7 +181,7 @@ func testRake(t *testing.T, context spec.G, it spec.S) {
 				source, err = occam.Source(filepath.Join("testdata", "rake_ca_cert"))
 				Expect(err).NotTo(HaveOccurred())
 
-				caCert, err := ioutil.ReadFile(fmt.Sprintf("%s/certs/ca.pem", source))
+				caCert, err := os.ReadFile(fmt.Sprintf("%s/certs/ca.pem", source))
 				Expect(err).ToNot(HaveOccurred())
 
 				caCertPool := x509.NewCertPool()
@@ -245,7 +245,7 @@ func testRake(t *testing.T, context spec.G, it spec.S) {
 
 				Expect(response.StatusCode).To(Equal(http.StatusOK))
 
-				content, err := ioutil.ReadAll(response.Body)
+				content, err := io.ReadAll(response.Body)
 				Expect(err).NotTo(HaveOccurred())
 				Expect(string(content)).To(ContainSubstring("Hello world, Authenticated User!"))
 			})
