@@ -3,52 +3,52 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/bundle-install:0.4.1"
+  uri = "urn:cnb:registry:paketo-buildpacks/bundle-install@0.4.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/bundler:0.5.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/bundler@0.5.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/image-labels:4.1.1"
+  uri = "urn:cnb:registry:paketo-buildpacks/image-labels@4.1.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/mri:0.7.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/mri@0.7.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/node-engine:0.12.3"
+  uri = "urn:cnb:registry:paketo-buildpacks/node-engine@0.12.3"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/passenger:0.5.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/passenger@0.5.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/procfile:5.1.1"
+  uri = "urn:cnb:registry:paketo-buildpacks/procfile@5.1.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/puma:0.3.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/puma@0.3.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/rackup:0.3.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/rackup@0.3.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/rails-assets:0.5.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/rails-assets@0.5.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/rake:0.3.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/rake@0.3.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/thin:0.3.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/thin@0.3.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/unicorn:0.3.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/unicorn@0.3.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/yarn-install:0.9.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/yarn-install@0.9.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/yarn:0.6.1"
+  uri = "urn:cnb:registry:paketo-buildpacks/yarn@0.6.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/environment-variables:4.1.1"
+  uri = "urn:cnb:registry:paketo-buildpacks/environment-variables@4.1.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/ca-certificates:3.2.2"
+  uri = "urn:cnb:registry:paketo-buildpacks/ca-certificates@3.2.2"
