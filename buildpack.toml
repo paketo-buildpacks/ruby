@@ -19,11 +19,11 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.2.3"
+    version = "3.2.4"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.8.1"
+    version = "0.8.2"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
@@ -77,11 +77,11 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.2.3"
+    version = "3.2.4"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.8.1"
+    version = "0.8.2"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
@@ -135,11 +135,11 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.2.3"
+    version = "3.2.4"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.8.1"
+    version = "0.8.2"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
@@ -193,11 +193,11 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.2.3"
+    version = "3.2.4"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.8.1"
+    version = "0.8.2"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
@@ -251,11 +251,11 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.2.3"
+    version = "3.2.4"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.8.1"
+    version = "0.8.2"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
@@ -309,11 +309,11 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.2.3"
+    version = "3.2.4"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.8.1"
+    version = "0.8.2"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
