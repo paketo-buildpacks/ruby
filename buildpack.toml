@@ -19,7 +19,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.2.4"
+    version = "3.2.5"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -60,24 +60,24 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.2.0"
+    version = "5.2.1"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.1.2"
+    version = "4.1.3"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.1.2"
+    version = "4.1.3"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.2.4"
+    version = "3.2.5"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -118,24 +118,24 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.2.0"
+    version = "5.2.1"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.1.2"
+    version = "4.1.3"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.1.2"
+    version = "4.1.3"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.2.4"
+    version = "3.2.5"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -176,24 +176,24 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.2.0"
+    version = "5.2.1"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.1.2"
+    version = "4.1.3"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.1.2"
+    version = "4.1.3"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.2.4"
+    version = "3.2.5"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -234,24 +234,24 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.2.0"
+    version = "5.2.1"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.1.2"
+    version = "4.1.3"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.1.2"
+    version = "4.1.3"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.2.4"
+    version = "3.2.5"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -292,24 +292,24 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.2.0"
+    version = "5.2.1"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.1.2"
+    version = "4.1.3"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.1.2"
+    version = "4.1.3"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.2.4"
+    version = "3.2.5"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -332,14 +332,14 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.2.0"
+    version = "5.2.1"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.1.2"
+    version = "4.1.3"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.1.2"
+    version = "4.1.3"
