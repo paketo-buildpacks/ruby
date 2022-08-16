@@ -31,20 +31,22 @@ func TestIntegration(t *testing.T) {
 	Expect(err).NotTo(HaveOccurred())
 
 	suite := spec.New("Integration", spec.Parallel(), spec.Report(report.Terminal{}))
+
 	// This test will only run on the Bionic full stack, because stack upgrade
 	// failures have only been observed when upgrading from the Bionic full stack.
 	// All other tests will run against the Bionic base stack and Jammy base stack
 	if builder.BuilderName == "paketobuildpacks/builder:buildpackless-full" {
 		suite("StackUpgrades", testGracefulStackUpgrades)
-	} else {
-		suite("Passenger", testPassenger)
-		suite("Puma", testPuma)
-		suite("Rackup", testRackup)
-		suite("RailsAssets", testRailsAssets)
-		suite("Rake", testRake)
-		suite("Thin", testThin)
-		suite("Unicorn", testUnicorn)
 	}
+
+	suite("Passenger", testPassenger)
+	suite("Puma", testPuma)
+	suite("Rackup", testRackup)
+	suite("RailsAssets", testRailsAssets)
+	suite("Rake", testRake)
+	suite("ReproducibleBuilds", testReproducibleBuilds)
+	suite("Thin", testThin)
+	suite("Unicorn", testUnicorn)
 
 	suite.Run(t)
 }
