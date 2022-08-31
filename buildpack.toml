@@ -5,7 +5,7 @@ api = "0.6"
   homepage = "https://github.com/paketo-buildpacks/ruby"
   id = "paketo-buildpacks/ruby"
   keywords = ["ruby"]
-  name = "Paketo Ruby Buildpack"
+  name = "Paketo Buildpack for Ruby"
 
   [[buildpack.licenses]]
     type = "Apache-2.0"
