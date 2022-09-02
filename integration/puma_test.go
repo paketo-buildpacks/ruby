@@ -71,12 +71,12 @@ func testPuma(t *testing.T, context spec.G, it spec.S) {
 			Eventually(container).Should(BeAvailable())
 			Eventually(container).Should(Serve(ContainSubstring("Hello world!")).OnPort(9292))
 
-			Expect(logs).To(ContainLines(ContainSubstring("MRI Buildpack")))
-			Expect(logs).To(ContainLines(ContainSubstring("Bundler Buildpack")))
-			Expect(logs).To(ContainLines(ContainSubstring("Bundle Install Buildpack")))
-			Expect(logs).To(ContainLines(ContainSubstring("Puma Buildpack")))
-			Expect(logs).NotTo(ContainLines(ContainSubstring("Procfile Buildpack")))
-			Expect(logs).NotTo(ContainLines(ContainSubstring("Image Labels Buildpack")))
+			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for MRI")))
+			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Bundler")))
+			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Bundle Install")))
+			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Puma")))
+			Expect(logs).NotTo(ContainLines(ContainSubstring("Buildpack for Procfile")))
+			Expect(logs).NotTo(ContainLines(ContainSubstring("Buildpack for Image Labels")))
 		})
 
 		context("using optional utility buildpacks", func() {
@@ -110,16 +110,16 @@ func testPuma(t *testing.T, context spec.G, it spec.S) {
 				Expect(image.Buildpacks[6].Layers["environment-variables"].Metadata["variables"]).To(Equal(map[string]interface{}{"SOME_VARIABLE": "SOME_VALUE"}))
 
 				Eventually(container).Should(Serve(ContainSubstring("Hello world!")).OnPort(8080))
-
-				Expect(logs).To(ContainLines(ContainSubstring("CA Certificates Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("MRI Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("Bundler Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("Bundle Install Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("Puma Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("Procfile Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("Image Labels Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("Environment Variables Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("bundle exec puma -b tcp://0.0.0.0:${PORT}")))
+
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for CA Certificates")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for MRI")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Bundler")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Bundle Install")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Puma")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Procfile")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Image Labels")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Environment Variables")))
 
 				Expect(image.Labels["some-label"]).To(Equal("some-value"))
 			})

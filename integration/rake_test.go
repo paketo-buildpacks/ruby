@@ -76,14 +76,14 @@ func testRake(t *testing.T, context spec.G, it spec.S) {
 				}
 
 				Eventually(rLogs).Should(ContainSubstring("I am a rake task"))
-
-				Expect(logs).To(ContainLines(ContainSubstring("MRI Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("Bundler Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("Bundle Install Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("Rake Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("bundle exec rake")))
-				Expect(logs).NotTo(ContainLines(ContainSubstring("Procfile Buildpack")))
-				Expect(logs).NotTo(ContainLines(ContainSubstring("Environment Variables Buildpack")))
+
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for MRI")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Bundler")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Bundle Install")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Rake")))
+				Expect(logs).NotTo(ContainLines(ContainSubstring("Buildpack for Procfile")))
+				Expect(logs).NotTo(ContainLines(ContainSubstring("Buildpack for Environment Variables")))
 			})
 		})
 
@@ -110,14 +110,14 @@ func testRake(t *testing.T, context spec.G, it spec.S) {
 				}
 
 				Eventually(rLogs).Should(ContainSubstring("I am a rake task"))
-
-				Expect(logs).To(ContainLines(ContainSubstring("MRI Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("Rake Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("rake")))
-				Expect(logs).NotTo(ContainLines(ContainSubstring("Bundler Buildpack")))
-				Expect(logs).NotTo(ContainLines(ContainSubstring("Bundle Install Buildpack")))
-				Expect(logs).NotTo(ContainLines(ContainSubstring("Procfile Buildpack")))
-				Expect(logs).NotTo(ContainLines(ContainSubstring("Image Labels Buildpack")))
+
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for MRI")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Rake")))
+				Expect(logs).NotTo(ContainLines(ContainSubstring("Buildpack for Bundler")))
+				Expect(logs).NotTo(ContainLines(ContainSubstring("Buildpack for Bundle Install")))
+				Expect(logs).NotTo(ContainLines(ContainSubstring("Buildpack for Procfile")))
+				Expect(logs).NotTo(ContainLines(ContainSubstring("Buildpack for Image Labels")))
 			})
 		})
 
@@ -155,15 +155,15 @@ func testRake(t *testing.T, context spec.G, it spec.S) {
 				}
 
 				Eventually(rLogs).Should(ContainSubstring("I am the proc rake task"))
-
-				Expect(logs).To(ContainLines(ContainSubstring("MRI Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("Bundler Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("Bundle Install Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("Rake Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("Procfile Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("Image Labels Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("Environment Variables Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("bundle exec rake proc")))
+
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for MRI")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Bundler")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Bundle Install")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Rake")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Procfile")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Image Labels")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Environment Variables")))
 
 				Expect(image.Labels["some-label"]).To(Equal("some-value"))
 			})
@@ -210,9 +210,9 @@ func testRake(t *testing.T, context spec.G, it spec.S) {
 					Execute(name, source)
 				Expect(err).NotTo(HaveOccurred())
 
-				Expect(logs).To(ContainLines(ContainSubstring("CA Certificates Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("MRI Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("Rake Buildpack")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for CA Certificates")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for MRI")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Rake")))
 
 				container, err = docker.Container.Run.
 					WithPublish("8080").
