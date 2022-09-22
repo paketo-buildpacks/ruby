@@ -23,7 +23,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.8.6"
+    version = "0.8.7"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
@@ -31,7 +31,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
-    version = "0.5.5"
+    version = "0.5.6"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
@@ -51,11 +51,11 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
     optional = true
-    version = "0.7.3"
+    version = "0.7.4"
 
   [[order.group]]
     id = "paketo-buildpacks/puma"
-    version = "0.4.3"
+    version = "0.4.4"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -81,7 +81,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.8.6"
+    version = "0.8.7"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
@@ -89,7 +89,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
-    version = "0.5.5"
+    version = "0.5.6"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
@@ -109,11 +109,11 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
     optional = true
-    version = "0.7.3"
+    version = "0.7.4"
 
   [[order.group]]
     id = "paketo-buildpacks/thin"
-    version = "0.5.3"
+    version = "0.5.4"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -139,7 +139,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.8.6"
+    version = "0.8.7"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
@@ -147,7 +147,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
-    version = "0.5.5"
+    version = "0.5.6"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
@@ -167,11 +167,11 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
     optional = true
-    version = "0.7.3"
+    version = "0.7.4"
 
   [[order.group]]
     id = "paketo-buildpacks/unicorn"
-    version = "0.4.3"
+    version = "0.4.4"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -197,7 +197,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.8.6"
+    version = "0.8.7"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
@@ -205,7 +205,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
-    version = "0.5.5"
+    version = "0.5.6"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
@@ -225,11 +225,11 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
     optional = true
-    version = "0.7.3"
+    version = "0.7.4"
 
   [[order.group]]
     id = "paketo-buildpacks/passenger"
-    version = "0.6.5"
+    version = "0.6.6"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -255,7 +255,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.8.6"
+    version = "0.8.7"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
@@ -263,7 +263,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
-    version = "0.5.5"
+    version = "0.5.6"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
@@ -283,11 +283,11 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
     optional = true
-    version = "0.7.3"
+    version = "0.7.4"
 
   [[order.group]]
     id = "paketo-buildpacks/rackup"
-    version = "0.4.3"
+    version = "0.4.4"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -313,7 +313,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.8.6"
+    version = "0.8.7"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
@@ -323,11 +323,11 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
     optional = true
-    version = "0.5.5"
+    version = "0.5.6"
 
   [[order.group]]
     id = "paketo-buildpacks/rake"
-    version = "0.4.3"
+    version = "0.4.4"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
