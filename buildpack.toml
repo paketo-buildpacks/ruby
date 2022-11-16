@@ -171,7 +171,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/unicorn"
-    version = "0.4.10"
+    version = "0.4.11"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
