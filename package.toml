@@ -30,7 +30,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/rackup@0.4.10"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/rails-assets@0.7.10"
+  uri = "urn:cnb:registry:paketo-buildpacks/rails-assets@0.8.0"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/rake@0.4.10"
