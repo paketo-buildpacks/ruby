@@ -23,7 +23,7 @@ func TestIntegration(t *testing.T) {
 	rubyBuildpack, err = filepath.Abs("../build/buildpackage.cnb")
 	Expect(err).NotTo(HaveOccurred())
 
-	SetDefaultEventuallyTimeout(10 * time.Second)
+	SetDefaultEventuallyTimeout(20 * time.Second)
 
 	suite := spec.New("Integration", spec.Parallel(), spec.Report(report.Terminal{}))
 	suite("Passenger", testPassenger)
