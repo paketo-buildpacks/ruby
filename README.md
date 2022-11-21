@@ -24,5 +24,7 @@ examples can be found in the
 [`samples` repository under the `ruby` directory](https://github.com/paketo-buildpacks/samples/tree/main/ruby).
 
 #### The Ruby buildpack is compatible with the following builder(s):
-- [Paketo Full Builder](https://github.com/paketo-buildpacks/full-builder)
-- [Paketo Base Builder](https://github.com/paketo-buildpacks/base-builder)
+- [Paketo Jammy Full Builder](https://github.com/paketo-buildpacks/builder-jammy-full)
+- [Paketo Bionic Full Builder](https://github.com/paketo-buildpacks/full-builder)
+- [Paketo Jammy Base Builder](https://github.com/paketo-buildpacks/builder-jammy-base)
+- [Paketo Bionic Base Builder](https://github.com/paketo-buildpacks/base-builder)

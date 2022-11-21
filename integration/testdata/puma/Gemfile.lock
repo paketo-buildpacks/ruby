@@ -1,31 +1,31 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    mustermann (1.1.1)
+    mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
-    nio4r (2.5.2)
-    puma (4.3.5)
+    nio4r (2.5.8)
+    puma (6.0.0)
       nio4r (~> 2.0)
-    rack (2.2.2)
-    rack-protection (2.0.8.1)
+    rack (2.2.4)
+    rack-protection (3.0.3)
       rack
-    ruby2_keywords (0.0.2)
-    sinatra (2.0.8.1)
-      mustermann (~> 1.0)
-      rack (~> 2.0)
-      rack-protection (= 2.0.8.1)
+    ruby2_keywords (0.0.5)
+    sinatra (3.0.3)
+      mustermann (~> 3.0)
+      rack (~> 2.2, >= 2.2.4)
+      rack-protection (= 3.0.3)
       tilt (~> 2.0)
-    tilt (2.0.10)
+    tilt (2.0.11)
 
 PLATFORMS
-  ruby
+  x86_64-linux
 
 DEPENDENCIES
   puma
   sinatra
 
 RUBY VERSION
-   ruby 2.6.3p62
+   ruby 3.1.2p20
 
 BUNDLED WITH
-   2.2.4
+   2.3.7
