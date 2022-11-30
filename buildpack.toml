@@ -23,11 +23,11 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.10.0"
+    version = "0.10.1"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.6.0"
+    version = "0.6.1"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -51,11 +51,11 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
     optional = true
-    version = "0.8.0"
+    version = "0.8.1"
 
   [[order.group]]
     id = "paketo-buildpacks/puma"
-    version = "0.4.10"
+    version = "0.4.11"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -81,11 +81,11 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.10.0"
+    version = "0.10.1"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.6.0"
+    version = "0.6.1"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -109,11 +109,11 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
     optional = true
-    version = "0.8.0"
+    version = "0.8.1"
 
   [[order.group]]
     id = "paketo-buildpacks/thin"
-    version = "0.5.10"
+    version = "0.5.11"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -139,11 +139,11 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.10.0"
+    version = "0.10.1"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.6.0"
+    version = "0.6.1"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -167,7 +167,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
     optional = true
-    version = "0.8.0"
+    version = "0.8.1"
 
   [[order.group]]
     id = "paketo-buildpacks/unicorn"
@@ -197,11 +197,11 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.10.0"
+    version = "0.10.1"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.6.0"
+    version = "0.6.1"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -225,11 +225,11 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
     optional = true
-    version = "0.8.0"
+    version = "0.8.1"
 
   [[order.group]]
     id = "paketo-buildpacks/passenger"
-    version = "0.8.0"
+    version = "0.8.1"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -255,11 +255,11 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.10.0"
+    version = "0.10.1"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.6.0"
+    version = "0.6.1"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -283,11 +283,11 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
     optional = true
-    version = "0.8.0"
+    version = "0.8.1"
 
   [[order.group]]
     id = "paketo-buildpacks/rackup"
-    version = "0.4.10"
+    version = "0.4.11"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -313,12 +313,12 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.10.0"
+    version = "0.10.1"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
     optional = true
-    version = "0.6.0"
+    version = "0.6.1"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -327,7 +327,7 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/rake"
-    version = "0.4.10"
+    version = "0.4.11"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
