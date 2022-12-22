@@ -18,7 +18,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/node-engine@0.20.0"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/passenger@0.8.2"
+  uri = "urn:cnb:registry:paketo-buildpacks/passenger@0.8.3"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/procfile@5.5.0"
@@ -27,7 +27,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/puma@0.4.12"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/rackup@0.4.12"
+  uri = "urn:cnb:registry:paketo-buildpacks/rackup@0.4.13"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/rails-assets@0.8.2"
