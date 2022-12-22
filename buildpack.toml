@@ -229,7 +229,7 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/passenger"
-    version = "0.8.2"
+    version = "0.8.3"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -287,7 +287,7 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/rackup"
-    version = "0.4.12"
+    version = "0.4.13"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
