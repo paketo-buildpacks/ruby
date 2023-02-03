@@ -6,7 +6,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/bundle-install@0.6.3"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/bundler@0.7.3"
+  uri = "urn:cnb:registry:paketo-buildpacks/bundler@0.7.4"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/image-labels@4.3.0"
@@ -24,7 +24,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/procfile@5.5.0"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/puma@0.4.14"
+  uri = "urn:cnb:registry:paketo-buildpacks/puma@0.4.15"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/rackup@0.4.14"
