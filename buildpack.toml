@@ -70,7 +70,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.3.0"
+    version = "4.4.0"
 
 [[order]]
 
@@ -128,7 +128,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.3.0"
+    version = "4.4.0"
 
 [[order]]
 
@@ -186,7 +186,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.3.0"
+    version = "4.4.0"
 
 [[order]]
 
@@ -244,7 +244,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.3.0"
+    version = "4.4.0"
 
 [[order]]
 
@@ -302,7 +302,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.3.0"
+    version = "4.4.0"
 
 [[order]]
 
@@ -342,4 +342,4 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.3.0"
+    version = "4.4.0"
