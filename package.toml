@@ -9,7 +9,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/bundler@0.7.4"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/image-labels@4.3.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/image-labels@4.4.0"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/mri@0.11.1"
