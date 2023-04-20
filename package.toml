@@ -6,40 +6,40 @@
   uri = "urn:cnb:registry:paketo-buildpacks/bundle-install@0.7.1"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/bundler@0.7.13"
+  uri = "urn:cnb:registry:paketo-buildpacks/bundler@0.7.14"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/image-labels@4.4.2"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/mri@0.13.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/mri@0.13.1"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/node-engine@1.4.1"
+  uri = "urn:cnb:registry:paketo-buildpacks/node-engine@1.5.0"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/passenger@0.9.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/passenger@0.9.1"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/procfile@5.6.1"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/puma@0.4.22"
+  uri = "urn:cnb:registry:paketo-buildpacks/puma@0.4.23"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/rackup@0.4.21"
+  uri = "urn:cnb:registry:paketo-buildpacks/rackup@0.4.22"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/rails-assets@0.8.11"
+  uri = "urn:cnb:registry:paketo-buildpacks/rails-assets@0.8.12"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/rake@0.4.21"
+  uri = "urn:cnb:registry:paketo-buildpacks/rake@0.4.22"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/thin@0.5.21"
+  uri = "urn:cnb:registry:paketo-buildpacks/thin@0.5.22"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/unicorn@0.4.21"
+  uri = "urn:cnb:registry:paketo-buildpacks/unicorn@0.4.22"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/yarn-install@1.1.0"
