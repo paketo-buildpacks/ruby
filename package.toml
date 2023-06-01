@@ -48,7 +48,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/yarn@1.1.8"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/environment-variables@4.5.1"
+  uri = "urn:cnb:registry:paketo-buildpacks/environment-variables@4.5.2"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/ca-certificates@3.6.1"
