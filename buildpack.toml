@@ -65,7 +65,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.5.1"
+    version = "4.5.2"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
@@ -123,7 +123,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.5.1"
+    version = "4.5.2"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
@@ -181,7 +181,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.5.1"
+    version = "4.5.2"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
@@ -239,7 +239,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.5.1"
+    version = "4.5.2"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
@@ -297,7 +297,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.5.1"
+    version = "4.5.2"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
@@ -337,7 +337,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.5.1"
+    version = "4.5.2"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
