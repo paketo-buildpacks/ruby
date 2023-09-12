@@ -36,7 +36,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "1.9.0"
+    version = "2.0.0"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
@@ -46,7 +46,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
     optional = true
-    version = "1.2.0"
+    version = "1.2.1"
 
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
@@ -94,7 +94,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "1.9.0"
+    version = "2.0.0"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
@@ -104,7 +104,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
     optional = true
-    version = "1.2.0"
+    version = "1.2.1"
 
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
@@ -152,7 +152,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "1.9.0"
+    version = "2.0.0"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
@@ -162,7 +162,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
     optional = true
-    version = "1.2.0"
+    version = "1.2.1"
 
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
@@ -210,7 +210,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "1.9.0"
+    version = "2.0.0"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
@@ -220,7 +220,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
     optional = true
-    version = "1.2.0"
+    version = "1.2.1"
 
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
@@ -268,7 +268,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "1.9.0"
+    version = "2.0.0"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
@@ -278,7 +278,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
     optional = true
-    version = "1.2.0"
+    version = "1.2.1"
 
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
