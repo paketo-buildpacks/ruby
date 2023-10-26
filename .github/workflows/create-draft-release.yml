@@ -15,65 +15,36 @@ on:
 concurrency: release
 
 jobs:
-  builders:
-    name: Get Builders for Testing
-    runs-on: ubuntu-22.04
-    outputs:
-      builders: ${{ steps.builders.outputs.builders }}
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v3
-    - name: Get builders from integration.json
-      id: builders
-      run: |
-        source "${{ github.workspace }}/scripts/.util/builders.sh"
-
-        builders="$(util::builders::list "${{ github.workspace }}/integration.json")"
-        printf "Output: %s\n" "${builders}"
-        printf "builders=%s\n" "${builders}" >> "$GITHUB_OUTPUT"
-  integration:
-    name: Integration Tests
-    runs-on: ubuntu-22.04
-    needs: [builders]
-    strategy:
-      matrix:
-        builder: ${{ fromJSON(needs.builders.outputs.builders) }}
-      fail-fast: false  # don't cancel all test jobs when one fails
-    steps:
-    - name: Setup Go
-      uses: actions/setup-go@v3
-      with:
-        go-version: 1.20.x
-    - name: Checkout
-      uses: actions/checkout@v3
-    - run: git fetch --depth=1 origin +refs/tags/*:refs/tags/* || true
-    - name: Run Integration Tests
-      env:
-        TMPDIR: "${{ runner.temp }}"
-      run: ./scripts/integration.sh --builder ${{ matrix.builder }}
-
   release:
     name: Release
     runs-on: ubuntu-22.04
-    needs: integration
     steps:
     - name: Checkout
       uses: actions/checkout@v3
-    - run: git fetch --depth=1 origin +refs/tags/*:refs/tags/* || true
+      with:
+        fetch-depth: 0  # gets full history
+        fetch-tags: true
     - name: Reset Draft Release
       id: reset
       uses: paketo-buildpacks/github-config/actions/release/reset-draft@main
       with:
         repo: ${{ github.repository }}
         token: ${{ github.token }}
+    - name: Get Latest Release
+      id: latest
+      run: |
+        version=$(git describe --tags --abbrev=0 ${{ github.ref_name }})
+        echo $version
+        echo "version=${version}" >> "$GITHUB_OUTPUT"
     - name: Calculate Semver Tag
       if: github.event.inputs.version == ''
       id: semver
-      uses: paketo-buildpacks/github-config/actions/tag/calculate-semver@main
+      uses: paketo-buildpacks/github-config/actions/tag/calculate-semver@semver-only
       with:
         repo: ${{ github.repository }}
         token: ${{ github.token }}
         ref-name: ${{ github.ref_name }}
+        latest-version: ${{ steps.latest.outputs.version }}
     - name: Set Release Tag
       id: tag
       run: |
@@ -108,22 +79,3 @@ jobs:
               "content_type": "application/x-tar"
             }
           ]
-
-  failure:
-    name: Alert on Failure
-    runs-on: ubuntu-22.04
-    needs: [ integration, release ]
-    if: ${{ always() && needs.integration.result == 'failure' || needs.release.result == 'failure' }}
-    steps:
-    - name: File Failure Alert Issue
-      uses: paketo-buildpacks/github-config/actions/issue/file@main
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        repo: ${{ github.repository }}
-        label: "failure:release"
-        comment_if_exists: true
-        issue_title: "Failure: Create Draft Release workflow"
-        issue_body: |
-          Create Draft Release workflow [failed](https://github.com/${{github.repository}}/actions/runs/${{github.run_id}}).
-        comment_body: |
-           Another failure occurred: https://github.com/${{github.repository}}/actions/runs/${{github.run_id}}
