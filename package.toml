@@ -15,7 +15,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/mri@0.14.8"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/node-engine@2.0.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/node-engine@3.0.0"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/passenger@0.13.1"
