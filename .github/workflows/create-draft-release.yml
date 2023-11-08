@@ -89,12 +89,12 @@ jobs:
       uses: paketo-buildpacks/github-config/actions/release/notes@main
       with:
         repo: ${{ github.repository }}
-        token: ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
+        token: ${{ secrets.NINE_BOT_GITHUB_TOKEN }}
     - name: Create Draft Release
       uses: paketo-buildpacks/github-config/actions/release/create@main
       with:
         repo: ${{ github.repository }}
-        token: ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
+        token: ${{ secrets.NINE_BOT_GITHUB_TOKEN }}
         tag_name: v${{ steps.tag.outputs.tag }}
         target_commitish: ${{ github.sha }}
         name: v${{ steps.tag.outputs.tag }}
@@ -108,22 +108,3 @@ jobs:
               "content_type": "application/x-tar"
             }
           ]
-
-  failure:
-    name: Alert on Failure
-    runs-on: ubuntu-22.04
-    needs: [ integration, release ]
-    if: ${{ always() && needs.integration.result == 'failure' || needs.release.result == 'failure' }}
-    steps:
-    - name: File Failure Alert Issue
-      uses: paketo-buildpacks/github-config/actions/issue/file@main
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        repo: ${{ github.repository }}
-        label: "failure:release"
-        comment_if_exists: true
-        issue_title: "Failure: Create Draft Release workflow"
-        issue_body: |
-          Create Draft Release workflow [failed](https://github.com/${{github.repository}}/actions/runs/${{github.run_id}}).
-        comment_body: |
-           Another failure occurred: https://github.com/${{github.repository}}/actions/runs/${{github.run_id}}
