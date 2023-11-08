@@ -2,8 +2,8 @@ api = "0.7"
 
 [buildpack]
   description = "A language family buildpack for building Ruby apps"
-  homepage = "https://github.com/paketo-buildpacks/ruby"
-  id = "paketo-buildpacks/ruby"
+  homepage = "https://github.com/ninech/buildpack-ruby"
+  id = "ninech/buildpack-ruby"
   keywords = ["ruby"]
   name = "Paketo Buildpack for Ruby"
 
