@@ -6,6 +6,9 @@
   uri = "ghcr.io/ninech/buildpack-bundle-install:0.0.1"
 
 [[dependencies]]
+  uri = "ghcr.io/ninech/buildpack-ruby-enable-node:0.0.1"
+
+[[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/bundler@0.7.26"
 
 [[dependencies]]
