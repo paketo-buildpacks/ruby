@@ -19,7 +19,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.6.6"
+    version = "3.6.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -27,7 +27,7 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.8.0"
+    version = "0.8.1"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -60,7 +60,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.6.7"
+    version = "5.6.8"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
@@ -77,7 +77,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.6.6"
+    version = "3.6.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -85,7 +85,7 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.8.0"
+    version = "0.8.1"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -118,7 +118,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.6.7"
+    version = "5.6.8"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
@@ -135,7 +135,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.6.6"
+    version = "3.6.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -143,7 +143,7 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.8.0"
+    version = "0.8.1"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -176,7 +176,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.6.7"
+    version = "5.6.8"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
@@ -193,7 +193,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.6.6"
+    version = "3.6.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -201,7 +201,7 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.8.0"
+    version = "0.8.1"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -234,7 +234,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.6.7"
+    version = "5.6.8"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
@@ -251,7 +251,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.6.6"
+    version = "3.6.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -259,7 +259,7 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.8.0"
+    version = "0.8.1"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -292,7 +292,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.6.7"
+    version = "5.6.8"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
@@ -309,7 +309,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.6.6"
+    version = "3.6.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -318,7 +318,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/bundler"
     optional = true
-    version = "0.8.0"
+    version = "0.8.1"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -332,7 +332,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.6.7"
+    version = "5.6.8"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
