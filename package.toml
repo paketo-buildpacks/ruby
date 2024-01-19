@@ -36,10 +36,10 @@
   uri = "urn:cnb:registry:paketo-buildpacks/rake@0.4.37"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/thin@0.5.36"
+  uri = "urn:cnb:registry:paketo-buildpacks/thin@0.5.37"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/unicorn@0.4.36"
+  uri = "urn:cnb:registry:paketo-buildpacks/unicorn@0.4.37"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/yarn-install@1.2.2"
