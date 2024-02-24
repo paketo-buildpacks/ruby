@@ -19,7 +19,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.6.7"
+    version = "3.6.8"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -51,7 +51,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
     optional = true
-    version = "0.10.6"
+    version = "0.10.7"
 
   [[order.group]]
     id = "paketo-buildpacks/puma"
@@ -60,24 +60,24 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.6.8"
+    version = "5.6.9"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.5.6"
+    version = "4.5.7"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.5.5"
+    version = "4.5.6"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.6.7"
+    version = "3.6.8"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -109,7 +109,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
     optional = true
-    version = "0.10.6"
+    version = "0.10.7"
 
   [[order.group]]
     id = "paketo-buildpacks/thin"
@@ -118,24 +118,24 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.6.8"
+    version = "5.6.9"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.5.6"
+    version = "4.5.7"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.5.5"
+    version = "4.5.6"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.6.7"
+    version = "3.6.8"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -167,7 +167,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
     optional = true
-    version = "0.10.6"
+    version = "0.10.7"
 
   [[order.group]]
     id = "paketo-buildpacks/unicorn"
@@ -176,24 +176,24 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.6.8"
+    version = "5.6.9"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.5.6"
+    version = "4.5.7"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.5.5"
+    version = "4.5.6"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.6.7"
+    version = "3.6.8"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -225,7 +225,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
     optional = true
-    version = "0.10.6"
+    version = "0.10.7"
 
   [[order.group]]
     id = "paketo-buildpacks/passenger"
@@ -234,24 +234,24 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.6.8"
+    version = "5.6.9"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.5.6"
+    version = "4.5.7"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.5.5"
+    version = "4.5.6"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.6.7"
+    version = "3.6.8"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -283,7 +283,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
     optional = true
-    version = "0.10.6"
+    version = "0.10.7"
 
   [[order.group]]
     id = "paketo-buildpacks/rackup"
@@ -292,24 +292,24 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.6.8"
+    version = "5.6.9"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.5.6"
+    version = "4.5.7"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.5.5"
+    version = "4.5.6"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.6.7"
+    version = "3.6.8"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
@@ -332,14 +332,14 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.6.8"
+    version = "5.6.9"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.5.6"
+    version = "4.5.7"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.5.5"
+    version = "4.5.6"
