@@ -12,7 +12,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/image-labels@4.5.6"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/mri@0.14.12"
+  uri = "urn:cnb:registry:paketo-buildpacks/mri@0.16.1"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/node-engine@3.2.2"
