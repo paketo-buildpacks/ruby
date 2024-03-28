@@ -6,13 +6,13 @@
   uri = "urn:cnb:registry:paketo-buildpacks/bundle-install@0.8.5"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/bundler@0.8.6"
+  uri = "urn:cnb:registry:paketo-buildpacks/bundler@0.8.7"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/image-labels@4.6.0"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/mri@0.16.1"
+  uri = "urn:cnb:registry:paketo-buildpacks/mri@0.16.2"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/node-engine@3.2.2"
