@@ -19,15 +19,15 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.6.8"
+    version = "3.7.0"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.16.1"
+    version = "0.16.2"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.8.6"
+    version = "0.8.7"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -60,32 +60,32 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.6.9"
+    version = "5.7.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.5.7"
+    version = "4.6.0"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.5.6"
+    version = "4.6.0"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.6.8"
+    version = "3.7.0"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.16.1"
+    version = "0.16.2"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.8.6"
+    version = "0.8.7"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -118,32 +118,32 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.6.9"
+    version = "5.7.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.5.7"
+    version = "4.6.0"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.5.6"
+    version = "4.6.0"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.6.8"
+    version = "3.7.0"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.16.1"
+    version = "0.16.2"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.8.6"
+    version = "0.8.7"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -176,32 +176,32 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.6.9"
+    version = "5.7.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.5.7"
+    version = "4.6.0"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.5.6"
+    version = "4.6.0"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.6.8"
+    version = "3.7.0"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.16.1"
+    version = "0.16.2"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.8.6"
+    version = "0.8.7"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -234,32 +234,32 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.6.9"
+    version = "5.7.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.5.7"
+    version = "4.6.0"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.5.6"
+    version = "4.6.0"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.6.8"
+    version = "3.7.0"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.16.1"
+    version = "0.16.2"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.8.6"
+    version = "0.8.7"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -292,33 +292,33 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.6.9"
+    version = "5.7.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.5.7"
+    version = "4.6.0"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.5.6"
+    version = "4.6.0"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.6.8"
+    version = "3.7.0"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.16.1"
+    version = "0.16.2"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
     optional = true
-    version = "0.8.6"
+    version = "0.8.7"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -332,14 +332,14 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.6.9"
+    version = "5.7.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.5.7"
+    version = "4.6.0"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.5.6"
+    version = "4.6.0"
