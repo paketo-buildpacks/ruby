@@ -41,7 +41,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/yarn"
     optional = true
-    version = "1.3.9"
+    version = "1.3.10"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
@@ -99,7 +99,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/yarn"
     optional = true
-    version = "1.3.9"
+    version = "1.3.10"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
@@ -157,7 +157,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/yarn"
     optional = true
-    version = "1.3.9"
+    version = "1.3.10"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
@@ -215,7 +215,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/yarn"
     optional = true
-    version = "1.3.9"
+    version = "1.3.10"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
@@ -273,7 +273,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/yarn"
     optional = true
-    version = "1.3.9"
+    version = "1.3.10"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
