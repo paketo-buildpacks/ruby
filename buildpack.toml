@@ -23,11 +23,11 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.17.13"
+    version = "0.17.14"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.8.23"
+    version = "0.8.24"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -36,7 +36,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "4.1.9"
+    version = "4.1.10"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
@@ -81,11 +81,11 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.17.13"
+    version = "0.17.14"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.8.23"
+    version = "0.8.24"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -94,7 +94,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "4.1.9"
+    version = "4.1.10"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
@@ -113,7 +113,7 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/thin"
-    version = "0.5.49"
+    version = "0.5.50"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -139,11 +139,11 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.17.13"
+    version = "0.17.14"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.8.23"
+    version = "0.8.24"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -152,7 +152,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "4.1.9"
+    version = "4.1.10"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
@@ -197,11 +197,11 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.17.13"
+    version = "0.17.14"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.8.23"
+    version = "0.8.24"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -210,7 +210,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "4.1.9"
+    version = "4.1.10"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
@@ -255,11 +255,11 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.17.13"
+    version = "0.17.14"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.8.23"
+    version = "0.8.24"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -268,7 +268,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "4.1.9"
+    version = "4.1.10"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
@@ -313,12 +313,12 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.17.13"
+    version = "0.17.14"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
     optional = true
-    version = "0.8.23"
+    version = "0.8.24"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -327,7 +327,7 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/rake"
-    version = "0.4.54"
+    version = "0.4.55"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
