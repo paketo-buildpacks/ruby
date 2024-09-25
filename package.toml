@@ -24,22 +24,22 @@
   uri = "urn:cnb:registry:paketo-buildpacks/procfile@5.9.3"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/puma@0.4.56"
+  uri = "urn:cnb:registry:paketo-buildpacks/puma@0.4.57"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/rackup@0.4.51"
+  uri = "urn:cnb:registry:paketo-buildpacks/rackup@0.4.52"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/rails-assets@0.10.24"
+  uri = "urn:cnb:registry:paketo-buildpacks/rails-assets@0.10.25"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/rake@0.4.56"
+  uri = "urn:cnb:registry:paketo-buildpacks/rake@0.4.57"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/thin@0.5.51"
+  uri = "urn:cnb:registry:paketo-buildpacks/thin@0.5.52"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/unicorn@0.4.54"
+  uri = "urn:cnb:registry:paketo-buildpacks/unicorn@0.4.55"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/yarn-install@2.0.9"
