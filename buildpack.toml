@@ -60,7 +60,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.9.3"
+    version = "5.10.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
@@ -118,7 +118,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.9.3"
+    version = "5.10.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
@@ -176,7 +176,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.9.3"
+    version = "5.10.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
@@ -234,7 +234,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.9.3"
+    version = "5.10.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
@@ -292,7 +292,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.9.3"
+    version = "5.10.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
@@ -332,7 +332,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.9.3"
+    version = "5.10.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
