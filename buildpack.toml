@@ -23,11 +23,11 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.17.17"
+    version = "0.17.18"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.8.27"
+    version = "0.8.28"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -36,7 +36,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "4.1.14"
+    version = "4.1.15"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
@@ -46,7 +46,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
     optional = true
-    version = "2.0.11"
+    version = "2.0.12"
 
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
@@ -81,11 +81,11 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.17.17"
+    version = "0.17.18"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.8.27"
+    version = "0.8.28"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -94,7 +94,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "4.1.14"
+    version = "4.1.15"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
@@ -104,7 +104,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
     optional = true
-    version = "2.0.11"
+    version = "2.0.12"
 
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
@@ -139,11 +139,11 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.17.17"
+    version = "0.17.18"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.8.27"
+    version = "0.8.28"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -152,7 +152,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "4.1.14"
+    version = "4.1.15"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
@@ -162,7 +162,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
     optional = true
-    version = "2.0.11"
+    version = "2.0.12"
 
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
@@ -197,11 +197,11 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.17.17"
+    version = "0.17.18"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.8.27"
+    version = "0.8.28"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -210,7 +210,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "4.1.14"
+    version = "4.1.15"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
@@ -220,7 +220,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
     optional = true
-    version = "2.0.11"
+    version = "2.0.12"
 
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
@@ -255,11 +255,11 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.17.17"
+    version = "0.17.18"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
-    version = "0.8.27"
+    version = "0.8.28"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
@@ -268,7 +268,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "4.1.14"
+    version = "4.1.15"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
@@ -278,7 +278,7 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/yarn-install"
     optional = true
-    version = "2.0.11"
+    version = "2.0.12"
 
   [[order.group]]
     id = "paketo-buildpacks/rails-assets"
@@ -313,12 +313,12 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/mri"
-    version = "0.17.17"
+    version = "0.17.18"
 
   [[order.group]]
     id = "paketo-buildpacks/bundler"
     optional = true
-    version = "0.8.27"
+    version = "0.8.28"
 
   [[order.group]]
     id = "paketo-buildpacks/bundle-install"
