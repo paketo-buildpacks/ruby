@@ -1,6 +1,6 @@
 module github.com/paketo-buildpacks/ruby
 
-go 1.25.2
+go 1.25.3
 
 require (
 	github.com/onsi/gomega v1.34.1
