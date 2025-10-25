@@ -10,12 +10,15 @@ import (
 	"github.com/sclevine/spec/report"
 
 	. "github.com/onsi/gomega"
+	"github.com/onsi/gomega/format"
 )
 
 var rubyBuildpack string
 
 func TestIntegration(t *testing.T) {
 	Expect := NewWithT(t).Expect
+
+	format.MaxLength = 999999999
 
 	output, err := exec.Command("bash", "-c", "../scripts/package.sh --version 1.2.3").CombinedOutput()
 	Expect(err).NotTo(HaveOccurred(), string(output))
