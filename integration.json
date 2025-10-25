@@ -1,7 +1,5 @@
 {
   "builders": [
-    "index.docker.io/paketobuildpacks/builder:buildpackless-base",
-    "index.docker.io/paketobuildpacks/builder:buildpackless-full",
     "index.docker.io/paketobuildpacks/builder-jammy-buildpackless-base:latest"
   ]
 }
