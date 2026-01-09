@@ -15,7 +15,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/mri@0.19.7"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/node-engine@7.13.2"
+  uri = "urn:cnb:registry:paketo-buildpacks/node-engine@8.0.0"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/passenger@0.14.14"
@@ -42,7 +42,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/unicorn@0.4.59"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/yarn-install@2.6.16"
+  uri = "urn:cnb:registry:paketo-buildpacks/yarn-install@2.7.0"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/yarn@2.2.16"
