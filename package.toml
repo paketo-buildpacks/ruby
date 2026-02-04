@@ -45,7 +45,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/yarn-install@2.7.0"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/yarn@2.2.18"
+  uri = "urn:cnb:registry:paketo-buildpacks/yarn@2.2.19"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/environment-variables@4.10.0"
