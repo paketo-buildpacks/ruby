@@ -241,7 +241,12 @@ func testRake(t *testing.T, context spec.G, it spec.S) {
 					response, err = client.Do(request)
 					return err
 				}).Should(BeNil())
-				defer response.Body.Close()
+				defer func() {
+					if err := response.Body.Close(); err != nil {
+						// Log the error or handle it appropriately
+						fmt.Fprintf(os.Stderr, "failed to close response.Body: %v\n", err)
+					}
+				}()
 
 				Expect(response.StatusCode).To(Equal(http.StatusOK))
 
