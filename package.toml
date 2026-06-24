@@ -3,49 +3,49 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/bundle-install@0.9.12"
+  uri = "urn:cnb:registry:paketo-buildpacks/bundle-install@0.9.13"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/bundler@0.9.13"
+  uri = "urn:cnb:registry:paketo-buildpacks/bundler@0.9.14"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/image-labels@4.12.4"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/mri@1.1.14"
+  uri = "urn:cnb:registry:paketo-buildpacks/mri@1.1.15"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/node-engine@8.1.6"
+  uri = "urn:cnb:registry:paketo-buildpacks/node-engine@8.2.0"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/passenger@0.14.25"
+  uri = "urn:cnb:registry:paketo-buildpacks/passenger@0.14.26"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/procfile@5.13.4"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/puma@0.5.12"
+  uri = "urn:cnb:registry:paketo-buildpacks/puma@0.5.13"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/rackup@0.4.65"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/rails-assets@0.10.38"
+  uri = "urn:cnb:registry:paketo-buildpacks/rails-assets@0.10.39"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/rake@0.4.73"
+  uri = "urn:cnb:registry:paketo-buildpacks/rake@0.4.74"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/thin@0.5.69"
+  uri = "urn:cnb:registry:paketo-buildpacks/thin@0.5.70"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/unicorn@0.4.72"
+  uri = "urn:cnb:registry:paketo-buildpacks/unicorn@0.4.73"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/yarn-install@2.7.17"
+  uri = "urn:cnb:registry:paketo-buildpacks/yarn-install@2.7.18"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/yarn@2.2.35"
+  uri = "urn:cnb:registry:paketo-buildpacks/yarn@2.2.36"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/environment-variables@4.11.4"
