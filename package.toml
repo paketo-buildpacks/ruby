@@ -3,49 +3,49 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/bundle-install@0.9.14"
+  uri = "urn:cnb:registry:paketo-buildpacks/bundle-install@0.9.15"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/bundler@0.9.15"
+  uri = "urn:cnb:registry:paketo-buildpacks/bundler@0.9.16"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/image-labels@4.12.4"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/mri@1.1.16"
+  uri = "urn:cnb:registry:paketo-buildpacks/mri@1.1.17"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/node-engine@8.3.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/node-engine@8.3.1"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/passenger@0.15.1"
+  uri = "urn:cnb:registry:paketo-buildpacks/passenger@0.15.2"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/procfile@5.13.4"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/puma@0.5.14"
+  uri = "urn:cnb:registry:paketo-buildpacks/puma@0.5.15"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/rackup@0.4.67"
+  uri = "urn:cnb:registry:paketo-buildpacks/rackup@0.4.68"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/rails-assets@0.10.40"
+  uri = "urn:cnb:registry:paketo-buildpacks/rails-assets@0.10.41"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/rake@0.4.75"
+  uri = "urn:cnb:registry:paketo-buildpacks/rake@0.4.76"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/thin@0.5.71"
+  uri = "urn:cnb:registry:paketo-buildpacks/thin@0.5.72"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/unicorn@0.4.74"
+  uri = "urn:cnb:registry:paketo-buildpacks/unicorn@0.4.75"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/yarn-install@2.7.19"
+  uri = "urn:cnb:registry:paketo-buildpacks/yarn-install@2.7.20"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/yarn@2.2.37"
+  uri = "urn:cnb:registry:paketo-buildpacks/yarn@2.2.38"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/environment-variables@4.11.4"
