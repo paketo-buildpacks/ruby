@@ -9,7 +9,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/bundler@0.9.17"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/image-labels@4.12.4"
+  uri = "urn:cnb:registry:paketo-buildpacks/image-labels@4.12.5"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/mri@1.1.18"
@@ -21,7 +21,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/passenger@0.15.3"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/procfile@5.13.4"
+  uri = "urn:cnb:registry:paketo-buildpacks/procfile@5.13.5"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/puma@0.5.16"
@@ -48,7 +48,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/yarn@2.2.39"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/environment-variables@4.11.4"
+  uri = "urn:cnb:registry:paketo-buildpacks/environment-variables@4.11.5"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/ca-certificates@3.12.4"
+  uri = "urn:cnb:registry:paketo-buildpacks/ca-certificates@3.12.5"
