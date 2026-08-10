@@ -3,52 +3,60 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/bundle-install@0.9.19"
+  uri = "docker://docker.io/paketobuildpacks/bundle-install:0.9.19"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/bundler@0.9.20"
+  uri = "docker://docker.io/paketobuildpacks/bundler:0.9.20"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/image-labels@4.12.6"
+  uri = "docker://docker.io/paketobuildpacks/image-labels:4.12.6"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/mri@1.1.21"
+  uri = "docker://docker.io/paketobuildpacks/mri:1.1.21"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/node-engine@8.5.0"
+  uri = "docker://docker.io/paketobuildpacks/node-engine:8.5.0"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/passenger@0.15.6"
+  uri = "docker://docker.io/paketobuildpacks/passenger:0.15.6"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/procfile@5.13.6"
+  uri = "docker://docker.io/paketobuildpacks/procfile:5.13.6"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/puma@0.5.19"
+  uri = "docker://docker.io/paketobuildpacks/puma:0.5.19"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/rackup@0.4.71"
+  uri = "docker://docker.io/paketobuildpacks/rackup:0.4.71"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/rails-assets@0.10.45"
+  uri = "docker://docker.io/paketobuildpacks/rails-assets:0.10.45"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/rake@0.4.80"
+  uri = "docker://docker.io/paketobuildpacks/rake:0.4.80"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/thin@0.5.76"
+  uri = "docker://docker.io/paketobuildpacks/thin:0.5.76"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/unicorn@0.4.79"
+  uri = "docker://docker.io/paketobuildpacks/unicorn:0.4.79"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/yarn-install@2.7.24"
+  uri = "docker://docker.io/paketobuildpacks/yarn-install:2.7.24"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/yarn@2.4.0"
+  uri = "docker://docker.io/paketobuildpacks/yarn:2.4.0"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/environment-variables@4.11.6"
+  uri = "docker://docker.io/paketobuildpacks/environment-variables:4.11.6"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/ca-certificates@3.12.6"
+  uri = "docker://docker.io/paketobuildpacks/ca-certificates:3.12.6"
+
+[[targets]]
+  arch = "amd64"
+  os = "linux"
+
+[[targets]]
+  arch = "arm64"
+  os = "linux"
