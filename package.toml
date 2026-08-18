@@ -18,7 +18,7 @@
   uri = "docker://docker.io/paketobuildpacks/node-engine:8.5.1"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/passenger:0.15.7"
+  uri = "docker://docker.io/paketobuildpacks/passenger:0.15.8"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/procfile:5.13.6"
