@@ -3,49 +3,49 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/bundle-install:0.9.19"
+  uri = "docker://docker.io/paketobuildpacks/bundle-install:0.9.21"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/bundler:0.9.20"
+  uri = "docker://docker.io/paketobuildpacks/bundler:0.10.1"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/image-labels:4.12.6"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/mri:1.1.21"
+  uri = "docker://docker.io/paketobuildpacks/mri:2.0.2"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/node-engine:8.5.0"
+  uri = "docker://docker.io/paketobuildpacks/node-engine:8.5.1"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/passenger:0.15.6"
+  uri = "docker://docker.io/paketobuildpacks/passenger:0.15.7"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/procfile:5.13.6"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/puma:0.5.19"
+  uri = "docker://docker.io/paketobuildpacks/puma:0.5.21"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/rackup:0.4.71"
+  uri = "docker://docker.io/paketobuildpacks/rackup:0.4.72"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/rails-assets:0.10.45"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/rake:0.4.80"
+  uri = "docker://docker.io/paketobuildpacks/rake:0.4.81"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/thin:0.5.76"
+  uri = "docker://docker.io/paketobuildpacks/thin:0.5.77"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/unicorn:0.4.79"
+  uri = "docker://docker.io/paketobuildpacks/unicorn:0.4.80"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/yarn-install:2.7.24"
+  uri = "docker://docker.io/paketobuildpacks/yarn-install:2.7.25"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/yarn:2.4.0"
+  uri = "docker://docker.io/paketobuildpacks/yarn:2.4.1"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/environment-variables:4.11.6"
