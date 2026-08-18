@@ -11,7 +11,7 @@ require "action_controller/railtie"
 # require "action_mailbox/engine"
 # require "action_text/engine"
 require "action_view/railtie"
-# require "action_cable/engine"
+require "action_cable/engine"
 require "sprockets/railtie"
 require "rails/test_unit/railtie"
 
@@ -22,7 +22,7 @@ Bundler.require(*Rails.groups)
 module Myapp
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
-    config.load_defaults 6.0
+    config.load_defaults 8.1
 
     # Configuration for the application, engines, and railties goes here.
     #
