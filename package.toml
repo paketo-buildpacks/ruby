@@ -15,7 +15,7 @@
   uri = "docker://docker.io/paketobuildpacks/mri:2.0.12"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/node-engine:8.10.0"
+  uri = "docker://docker.io/paketobuildpacks/node-engine:8.11.0"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/passenger:0.16.6"
