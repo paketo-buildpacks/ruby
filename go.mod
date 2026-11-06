@@ -49,7 +49,7 @@ require (
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.1 // indirect
 	github.com/paketo-buildpacks/freezer v0.2.3 // indirect
-	github.com/paketo-buildpacks/packit/v2 v2.25.8 // indirect
+	github.com/paketo-buildpacks/packit/v2 v2.26.0 // indirect
 	github.com/power-devops/perfstat v0.0.0-20260805114148-88456608a4f6 // indirect
 	github.com/shirou/gopsutil/v4 v4.26.10 // indirect
 	github.com/sirupsen/logrus v1.10.2 // indirect
@@ -67,7 +67,7 @@ require (
 	go.opentelemetry.io/otel/trace v1.47.0 // indirect
 	go.yaml.in/yaml/v3 v3.0.6 // indirect
 	golang.org/x/crypto v0.58.0 // indirect
-	golang.org/x/net v0.61.0 // indirect
+	golang.org/x/net v0.62.0 // indirect
 	golang.org/x/sys v0.49.0 // indirect
 	golang.org/x/text v0.43.0 // indirect
 )
