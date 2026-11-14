@@ -34,7 +34,7 @@ version = '0.9.34'
 
 [[order.group]]
 id = 'paketo-buildpacks/node-engine'
-version = '8.12.1'
+version = '8.12.2'
 optional = true
 
 [[order.group]]
@@ -91,7 +91,7 @@ version = '0.9.34'
 
 [[order.group]]
 id = 'paketo-buildpacks/node-engine'
-version = '8.12.1'
+version = '8.12.2'
 optional = true
 
 [[order.group]]
@@ -148,7 +148,7 @@ version = '0.9.34'
 
 [[order.group]]
 id = 'paketo-buildpacks/node-engine'
-version = '8.12.1'
+version = '8.12.2'
 optional = true
 
 [[order.group]]
@@ -205,7 +205,7 @@ version = '0.9.34'
 
 [[order.group]]
 id = 'paketo-buildpacks/node-engine'
-version = '8.12.1'
+version = '8.12.2'
 optional = true
 
 [[order.group]]
@@ -262,7 +262,7 @@ version = '0.9.34'
 
 [[order.group]]
 id = 'paketo-buildpacks/node-engine'
-version = '8.12.1'
+version = '8.12.2'
 optional = true
 
 [[order.group]]
