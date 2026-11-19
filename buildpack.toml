@@ -22,7 +22,7 @@ optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/mri'
-version = '2.0.16'
+version = '2.0.17'
 
 [[order.group]]
 id = 'paketo-buildpacks/bundler'
@@ -79,7 +79,7 @@ optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/mri'
-version = '2.0.16'
+version = '2.0.17'
 
 [[order.group]]
 id = 'paketo-buildpacks/bundler'
@@ -136,7 +136,7 @@ optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/mri'
-version = '2.0.16'
+version = '2.0.17'
 
 [[order.group]]
 id = 'paketo-buildpacks/bundler'
@@ -193,7 +193,7 @@ optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/mri'
-version = '2.0.16'
+version = '2.0.17'
 
 [[order.group]]
 id = 'paketo-buildpacks/bundler'
@@ -250,7 +250,7 @@ optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/mri'
-version = '2.0.16'
+version = '2.0.17'
 
 [[order.group]]
 id = 'paketo-buildpacks/bundler'
@@ -307,7 +307,7 @@ optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/mri'
-version = '2.0.16'
+version = '2.0.17'
 
 [[order.group]]
 id = 'paketo-buildpacks/bundler'
