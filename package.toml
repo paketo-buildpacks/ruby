@@ -11,7 +11,7 @@ uri = 'docker://docker.io/paketobuildpacks/bundler:0.11.0'
 uri = 'docker://docker.io/paketobuildpacks/image-labels:4.14.8'
 
 [[dependencies]]
-uri = 'docker://docker.io/paketobuildpacks/mri:2.0.16'
+uri = 'docker://docker.io/paketobuildpacks/mri:2.0.17'
 
 [[dependencies]]
 uri = 'docker://docker.io/paketobuildpacks/node-engine:8.12.3'
